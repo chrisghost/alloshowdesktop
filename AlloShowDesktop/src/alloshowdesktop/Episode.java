@@ -25,12 +25,12 @@ public class Episode implements Serializable {
 
     private List<URL> sources;
 
-    public Episode(int n, String sc, String h, String w, String l) {
-        number=n;
-        specialCode = sc;
-        host=h;
-        website=w;
-        lang=l;
+    public Episode(int number, String specialCode, String host, String website, String lang) {
+        this.number=number;
+        this.specialCode = specialCode;
+        this.host=host;
+        this.website=website;
+        this.lang=lang;
     }
 
     public void setSpecialCode(String specialCode) {
@@ -51,11 +51,16 @@ public class Episode implements Serializable {
     }
 
     public String getUrl(){
-        String[] exp = specialCode.split("\\(");
-        exp = exp[1].split(",");
-        String url = "http://www.alloseven.com/embed.php?s="+exp[0]+"&e="+exp[1]+"&k=series";
-        exp = exp[2].split("'");
-        url = url + "&v="+exp[1];
+         String url = "";
+        if(this.host.equals("alloseven")){
+            String[] exp = specialCode.split("\\(");
+            exp = exp[1].split(",");
+            url = "http://www.alloseven.com/embed.php?s="+exp[0]+"&e="+exp[1]+"&k=series";
+            exp = exp[2].split("'");
+            url = url + "&v="+exp[1];
+        }else if(this.host.equals("alloshowtv")){
+            url = "http://alloshowtv.com/series/"+this.specialCode;
+        }
         return url;
     }
 

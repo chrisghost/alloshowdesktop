@@ -23,7 +23,7 @@ public class SearchOserver implements Observer{
         this.main = main;
     }
 
-    public List<Show> newSearch(alloseven.Search s){
+    public List<Show> newSearch(alloshowtv.Search s){
         s.addObserver(this);
         s.notifyObservers();
         

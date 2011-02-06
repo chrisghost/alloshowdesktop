@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <HTML>
 
@@ -29,7 +31,6 @@ body
 	/*float:left;filter:alpha(opacity=25);-moz-opacity:.25;opacity:.25; */
 
 	
-		background-color:#ADADAC;
 		
 
 }
@@ -104,7 +105,7 @@ pageTracker._trackPageview();
       
 
 
-<BODY onresize="resizing();">
+<BODY>
 
 
 
@@ -333,79 +334,79 @@ if (parent.frames.length > 0) top.location.replace(document.location);
 	{
 		if (id == 0)
 		{
-			document.location = 'http://www.megavideo.com/?v=FBK8L7MI&setlang=en';
+			document.location = 'http://www.megavideo.com/?v=JWLFR2M4&setlang=en';
 		}
 		if (id == 1)
 		{
-			document.location = 'http://www.megavideo.com/?v=FBK8L7MI&setlang=de';
+			document.location = 'http://www.megavideo.com/?v=JWLFR2M4&setlang=de';
 		}
 		if (id == 2)
 		{
-			document.location = 'http://www.megavideo.com/?v=FBK8L7MI&setlang=fr';
+			document.location = 'http://www.megavideo.com/?v=JWLFR2M4&setlang=fr';
 		}
 		if (id == 3)
 		{
-			document.location = 'http://www.megavideo.com/?v=FBK8L7MI&setlang=es';
+			document.location = 'http://www.megavideo.com/?v=JWLFR2M4&setlang=es';
 		}
 		if (id == 4)
 		{
-		document.location = 'http://www.megavideo.com/?v=FBK8L7MI&setlang=pt';
+		document.location = 'http://www.megavideo.com/?v=JWLFR2M4&setlang=pt';
 		}
 		if (id == 5)
 		{
-			document.location = 'http://www.megavideo.com/?v=FBK8L7MI&setlang=nl';
+			document.location = 'http://www.megavideo.com/?v=JWLFR2M4&setlang=nl';
 		}
 		if (id == 6)
 		{
-			document.location = 'http://www.megavideo.com/?v=FBK8L7MI&setlang=it';
+			document.location = 'http://www.megavideo.com/?v=JWLFR2M4&setlang=it';
 		}
 		if (id == 7)
 		{
-			document.location = 'http://www.megavideo.com/?v=FBK8L7MI&setlang=cn';
+			document.location = 'http://www.megavideo.com/?v=JWLFR2M4&setlang=cn';
 		}
 		if (id == 8)
 		{
-			document.location = 'http://www.megavideo.com/?v=FBK8L7MI&setlang=ct';
+			document.location = 'http://www.megavideo.com/?v=JWLFR2M4&setlang=ct';
 		}
 		if (id == 9)
 		{
-			document.location = 'http://www.megavideo.com/?v=FBK8L7MI&setlang=jp';
+			document.location = 'http://www.megavideo.com/?v=JWLFR2M4&setlang=jp';
 		}
 		if (id == 10)
 		{
-			document.location = 'http://www.megavideo.com/?v=FBK8L7MI&setlang=kr';
+			document.location = 'http://www.megavideo.com/?v=JWLFR2M4&setlang=kr';
 		}
 		if (id == 11)
 		{
-			document.location = 'http://www.megavideo.com/?v=FBK8L7MI&setlang=ru';
+			document.location = 'http://www.megavideo.com/?v=JWLFR2M4&setlang=ru';
 		}
 		if (id == 12)
 		{
-			document.location = 'http://www.megavideo.com/?v=FBK8L7MI&setlang=fi';
+			document.location = 'http://www.megavideo.com/?v=JWLFR2M4&setlang=fi';
 		}
 		if (id == 13)
 		{
-			document.location = 'http://www.megavideo.com/?v=FBK8L7MI&setlang=se';
+			document.location = 'http://www.megavideo.com/?v=JWLFR2M4&setlang=se';
 		}
 		if (id == 14)
 		{
-			document.location = 'http://www.megavideo.com/?v=FBK8L7MI&setlang=dk';
+			document.location = 'http://www.megavideo.com/?v=JWLFR2M4&setlang=dk';
 		}
 		if (id == 15)
 		{
-			document.location = 'http://www.megavideo.com/?v=FBK8L7MI&setlang=tr';
+			document.location = 'http://www.megavideo.com/?v=JWLFR2M4&setlang=tr';
 		}
 		if (id == 16)
 		{
-			document.location = 'http://www.megavideo.com/?v=FBK8L7MI&setlang=sa';
+			document.location = 'http://www.megavideo.com/?v=JWLFR2M4&setlang=sa';
 		}
 		if (id == 17)
 		{
-			document.location = 'http://www.megavideo.com/?v=FBK8L7MI&setlang=vn';
+			document.location = 'http://www.megavideo.com/?v=JWLFR2M4&setlang=vn';
 		}
 		if (id == 18)
 		{
-			document.location = 'http://www.megavideo.com/?v=FBK8L7MI&setlang=pl';
+			document.location = 'http://www.megavideo.com/?v=JWLFR2M4&setlang=pl';
 		}
 	}
 	</script>
@@ -445,17 +446,17 @@ flagover.src = 'http://wwwstatic.megavideo.com/mvgui/language_object/en_a_o.gif'
 <TR>
 	<TD height="80" align="center"><center><div style="position:relative; width:980px; height:80px;">
 
-	<div style="position:absolute; left:-10px; top:8px;"><a href="?"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/mv_logo.gif" WIDTH="284" HEIGHT="36" BORDER="0" ALT=""></a><FORM method="GET" id="searchfrm">
+	<div style="position:absolute; left:4px; top:8px;"><a href="?"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/mv_logo.gif" WIDTH="284" HEIGHT="36" BORDER="0" ALT=""></a><FORM method="GET" id="searchfrm">
 	<input type="hidden" name="c" value="search"></div>
 	
 
 		
 	
-	<div style="position:absolute; left:629px; top:11px; background-image:url('http://wwwstatic.megavideo.com/mvgui/search_field.gif'); width:187px; height:28px;">
+	<div style="position:absolute; left:622px; top:11px; background-image:url('http://wwwstatic.megavideo.com/mvgui/search_field.gif'); width:187px; height:28px;">
 	<div style="position:absolute; left:6px; top:4px;"><input type="text" name="s" style="background-color:#FFFFFF; border:none; width:179px;" value="Search videos" onclick="this.value='';"></div>
 	</div>
 
-	<div style="position:absolute; left:816px; top:11px;">
+	<div style="position:absolute; left:809px; top:11px;">
 	<script type="text/javascript">
 	searchbutton = new Image(35,28);
 	searchbuttono = new Image(35,28);
@@ -472,7 +473,7 @@ flagover.src = 'http://wwwstatic.megavideo.com/mvgui/language_object/en_a_o.gif'
 	langbuto.src = 'http://wwwstatic.megavideo.com/mvgui/lang_o.gif';
 	</script>
 
-	<div style="position:absolute; left:852px; top:9px;">
+	<div style="position:absolute; left:845px; top:9px;">
 	<table  border="0" cellspacing="0" cellpadding="1">
 	  <tr>
 		<td width="140"><table width="100" border="0" align="right" cellpadding="1" cellspacing="0">
@@ -517,79 +518,6 @@ flagover.src = 'http://wwwstatic.megavideo.com/mvgui/language_object/en_a_o.gif'
 </TABLE>
 
 
-<script type="text/javascript">
-
-
-var cinmode = '';
-
-function cinemamode(mode)
-{
-  if (mode == 1)
-  {
-	// turn on
-    resizecinema();
-	cinmode=1;
-	document.getElementById('playerdiv').style.zIndex = '100';
-	document.getElementById('cinemamenu_on').style.display = 'none';
-	document.getElementById('cinemamenu_on2').style.display = 'none';
-	changeOpac(0,'dimlights1');
-	document.getElementById('dimlights1').style.display = '';
-	opacity('dimlights1', 0, 75, 750);
-	setTimeout("document.getElementById('cinemamenu_off').style.display = '';",750);
-	setTimeout("document.getElementById('cinemamenu_off2').style.display = '';",750);
-  }
-  else
-  {
-	// turn off
-	document.getElementById('cinemamenu_off').style.display = 'none';
-	document.getElementById('cinemamenu_off2').style.display = 'none';
-	opacity('dimlights1', 75, 0, 500);
-	setTimeout("document.getElementById('playerdiv').style.zIndex = '0';",750);
-	setTimeout("document.getElementById('dimlights1').style.display='none';",750);
-	setTimeout("document.getElementById('cinemamenu_on').style.display = '';",750);
-	setTimeout("document.getElementById('cinemamenu_on2').style.display = '';",750);
-	cinmode=0;
-  }
-}
-
-function opacity(id, opacStart, opacEnd, millisec) { 
-    //speed for each frame 
-    var speed = Math.round(millisec / 100); 
-    var timer = 0; 
-
-    //determine the direction for the blending, if start and end are the same nothing happens 
-    if(opacStart > opacEnd) { 
-        for(i = opacStart; i >= opacEnd; i--) { 
-            setTimeout("changeOpac(" + i + ",'" + id + "')",(timer * speed)); 
-            timer++; 
-        } 
-    } else if(opacStart < opacEnd) { 
-        for(i = opacStart; i <= opacEnd; i++) 
-            { 
-            setTimeout("changeOpac(" + i + ",'" + id + "')",(timer * speed)); 
-            timer++; 
-        } 
-    } 
-} 
-
-//change the opacity for different browsers 
-function changeOpac(opacity, id) { 
-    var object = document.getElementById(id).style; 
-    object.opacity = (opacity / 100); 
-    object.MozOpacity = (opacity / 100); 
-    object.KhtmlOpacity = (opacity / 100); 
-    object.filter = "alpha(opacity=" + opacity + ")"; 
-} 
-
-function resizecinema()
-{
-  document.getElementById('dimlights1').style.width  = document.body.clientWidth;
-  document.getElementById('dimlights1').style.height = document.body.clientHeight;
-}
-
-</script>
-
-
 <div style="position:absolute; left:0px; top:0px; width:1900px; height:1080px; background-color:#000000; filter:alpha(opacity=70);-moz-opacity:.70;opacity:.70; z-index:1; display:none;" id="dimlights1"></div>
 
 
@@ -598,697 +526,1211 @@ function resizecinema()
 
 
 
-
-<TABLE width="100%" background="mvgui/big_vid_bg2.gif" cellpadding="0" cellspacing="0" style="" id="playerbg" bgcolor="#666563">
-<TR>
-	<TD height="649" align="center" valign="top" style="padding-left:1px;" id="playertd">
-	<center>
-	<div style="position:relative; background-color:#000000; width:992px; height:558px;" id="playerdiv" onmouseout="javascript:playerout();">
-	<div id="playercontainer">
-	<TABLE cellpadding="0" cellspacing="0">
-	<TR>
-		<TD height="558" width="992" align="center" valign="middle">
-		<a href="http://www.adobe.com/go/getflash" target="_blank" style="color:#FFFFFF; font-family:arial; font-size:16px; font-weight:bold; text-decoration:none;">Please upgrade to the latest version of the Adobe Flash player.</font></a><br><br><br>
-		<a href="http://www.adobe.com/go/getflash" target="_blank"><IMG SRC="gui/getflash.gif" WIDTH="158" HEIGHT="39" BORDER="0" ALT=""></a><br><br><br>
-
-		<noscript><div style="color:#FFFFFF; font-family:arial; font-size:16px; font-weight:bold; text-decoration:none; width:700px;">Please enable Javascript/ActiveScripting.<br>Make sure that your browser is not blocking Javascript on this site.</div></noscript>
-		</TD>
-	</TR>
-	</TABLE>
-	</div>
-	</div>
-</center>	
-
+<div id="main">
+<div id="mainpage">
 
 
 <script type="text/javascript">
-bigmenu1 = new Image(248,30);
-bigmenu2 = new Image(247,30);
-bigmenu3 = new Image(248,30);
-bigmenu4 = new Image(249,30);
-bigmenu1o = new Image(248,30);
-bigmenu2o = new Image(247,30);
-bigmenu3o = new Image(248,30);
-bigmenu4o = new Image(249,30);
-bigmenu1o.src = 'mvgui/en/p_menu_o_01.gif';
-bigmenu2o.src = 'mvgui/en/p_menu_o_02.gif';
-bigmenu3o.src = 'mvgui/en/p_menu_o_03.gif';
-bigmenu4o.src = 'mvgui/en/p_menu_o_04.gif';
+var slideactive = new Array();
+var originalthumbs = new Array();
+var preloaded = new Array();
+var videothumbs= new Array();
 
-smallmenu1 = new Image(160,30);
-smallmenu2 = new Image(159,30);
-smallmenu3 = new Image(160,30);
-smallmenu4 = new Image(161,30);
-smallmenu1o = new Image(160,30);
-smallmenu2o = new Image(159,30);
-smallmenu3o = new Image(160,30);
-smallmenu4o = new Image(161,30);
+function startslideshow(downloadid)
+{
+   slideactive[downloadid] = true;
+   originalthumbs[downloadid] = new Image();
+   originalthumbs[downloadid].src = document.getElementById('img_' + downloadid).src;
+   if (!preloaded[downloadid + '_1'])
+   { 
+	  preloaded[downloadid + '_1'] = new Image();
+	  preloaded[downloadid + '_1'].src = videothumbs[downloadid + '_1'];
+   }
+   setTimeout("slider('" + downloadid + "',1)",300);
+}
+
+function stopslideshow(downloadid)
+{ 
+   slideactive[downloadid] = false;
+}
+
+
+function slider(downloadid,i)
+{ 
+  if(slideactive[downloadid])
+  {
+	document.getElementById('img_' + downloadid).src = videothumbs[downloadid + '_' + i];
+	i=i+1;
+	if (i == 9)
+	{
+	  i=1;
+	}
+	setTimeout("slider('" + downloadid + "'," + i + ")",700);
+	if (!preloaded[downloadid + '_' + i])
+	{ 
+//	  alert('preloading ' + downloadid + ' - ' + i);
+	  preloaded[downloadid + '_' + i] = new Image();
+	  preloaded[downloadid + '_' + i].src = videothumbs[downloadid + '_' + i];
+	}
+  }
+  else
+  {
+	document.getElementById('img_' + downloadid).src = originalthumbs[downloadid].src;
+  }
+}
 </script>
 
 
 
-<TABLE width="100%" background="" cellpadding="0" cellspacing="0" style="margin-top:0px;" id="bigmenu">
-<TR>
-	<TD height="30" align="center" valign="top" style="padding-left:1px;">
-	<TABLE cellpadding="0" cellspacing="0">
-	<TR>
-		<TD width="248"><a href="javascript:adjustplayer();"><img src="mvgui/en/p_menu_01.gif" width="248" height="30" alt="" border="0" onmouseover="bigmenu1.src=this.src; this.src=bigmenu1o.src;" onmouseout="this.src=bigmenu1.src;"></a></TD>
-		<TD width="247"><a href="javascript:embedvideo();"><img src="mvgui/en/p_menu_02.gif" width="247" height="30" alt="" border="0" onmouseover="bigmenu2.src=this.src; this.src=bigmenu2o.src;" onmouseout="this.src=bigmenu2.src;"></a></TD>
-		<TD width="248"><a href="javascript:showrelated();"><img src="mvgui/en/p_menu_03.gif" width="248" height="30" alt="" border="0" onmouseover="bigmenu3.src=this.src; this.src=bigmenu3o.src;" onmouseout="this.src=bigmenu3.src;"></a></TD>
-		<TD width="250" height="30" align="left"  valign="top"><div style="position:relative; width:249px; height:30px; z-index:10;"  id="menudiv4"><div id="cinemamenu_on" style=""><a href="javascript:cinemamode(1);"><img src="mvgui/en/p_menu_04.gif" width="249" height="30" alt="" border="0" onmouseover="bigmenu4.src=this.src; this.src=bigmenu4o.src;" onmouseout="this.src=bigmenu4.src;"></a></div><div id="cinemamenu_off" style="display:none; z-index:10;"><a href="javascript:cinemamode(0);"><img src="mvgui/en/p_menu_04b.gif" width="249" height="30" alt="" border="0"></a></div></div></TD>
-	</TR>
-	</TABLE>
-	</TD>
-</TR>
-</TABLE>
 
+<script type="text/javascript">
+function showmore(videoid)
+{
+  document.getElementById('description_long_' + videoid).style.display = '';
+  document.getElementById('description_short_' + videoid).style.display = 'none';
+}
 
-<TABLE width="100%" background="" cellpadding="0" cellspacing="0" style="margin-top:0px; display:none;" id="smallmenu">
-<TR>
-	<TD height="30" align="center" valign="top" style="padding-left:1px;">
-	<TABLE cellpadding="0" cellspacing="0">
-	<TR>
-		<TD width="160"><a href="javascript:adjustplayer();"><img src="mvgui/en/ps_menu_01.gif" width="160" height="30" alt="" border="0" id="" onmouseover="smallmenu1.src=this.src; this.src=smallmenu1o.src;" onmouseout="this.src=smallmenu1.src;"></a></TD>
-		<TD width="159"><a href="javascript:embedvideo();"><img src="mvgui/en/ps_menu_02.gif" width="159" height="30" alt="" border="0" onmouseover="smallmenu2.src=this.src; this.src=smallmenu2o.src;" onmouseout="this.src=smallmenu2.src;"></a></TD>
-		<TD width="160"><a href="javascript:showrelated();"><img src="mvgui/en/ps_menu_03.gif" width="160" height="30" alt="" border="0" onmouseover="smallmenu3.src=this.src; this.src=smallmenu3o.src;" onmouseout="this.src=smallmenu3.src;"></a></TD>
-		<TD width="162" height="30" align="left"  valign="top"><div style="position:relative; width:161px; height:30px; z-index:10;"  id="menudiv4"><div id="cinemamenu_on2" style=""><a href="javascript:cinemamode(1);"><img src="mvgui/en/ps_menu_04.gif" width="161" height="30" alt="" border="0" onmouseover="smallmenu4.src=this.src; this.src=smallmenu4o.src;" onmouseout="this.src=smallmenu4.src;"></a></div><div id="cinemamenu_off2" style="display:none; z-index:10;"><a href="javascript:cinemamode(0);"><img src="mvgui/en/ps_menu_04b.gif" width="161" height="30" alt="" border="0"></a></div></div></TD>
-	</TR>
-	</TABLE>
-	</TD>
-</TR>
-</TABLE>
+function showless(videoid)
+{
+  document.getElementById('description_long_' + videoid).style.display = 'none';
+  document.getElementById('description_short_' + videoid).style.display = '';
+}
+</script>
 
 
 
-<div style="position:relative; width:600px; height:45px; display:none;" id="loading_ico">
-<div style="position:absolute; left:289px; top:25px; width:20px; height:20px;"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/loading.gif" WIDTH="20" HEIGHT="20" BORDER="0" ALT=""></div>
+ 
+<div style="margin-left:14px; margin-bottom:4px;">
+<table width="100%" align="center" bgcolor="#666666"cellpadding="6" cellspacing="3" border="0">
+<tr>
+	<td align="center" bgcolor="#FFFFFF"><span class="success">This video is unavailable.</span></td>
+</tr>
+</table>
 </div>
+
+
+
+
+
+
+
+
+
+
+<div style="position:relative; width:970px; height:85px; margin-left:20px;"><a href="?c=premium"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/en/ban_premium.jpg" WIDTH="967" HEIGHT="82" BORDER="0" ALT=""></a>
+<div style="position:absolute; left:-4px; top:0px;"><a href=""><IMG SRC="http://wwwstatic.megavideo.com/mvgui/banfix.jpg" WIDTH="20" HEIGHT="82" BORDER="0" ALT=""></a></div>
+</div>
+
+
+
+<TABLE cellpadding="0" cellspacing="0" style="margin-left:12px;">
+<TR>
+	<TD width="631"  valign="top" align="left">
 
 	
 	<script type="text/javascript">
-	
-	var flashvars = {};
-	
-	flashvars.added = "2008-04-04";
-	flashvars.username = "emile442";
-	flashvars.title = "qsefsef204vostfr";
-	flashvars.description = "qsefsefs";
-	flashvars.views = "-";
-	flashvars.comments = "0";
-	flashvars.favorited = "0";
-	flashvars.category = "comedy";
-	flashvars.tags = "eqfsefsef";
-	flashvars.rating = "0";
-	flashvars.des01 = "show details";
-	flashvars.des02 = "embed video";
-	flashvars.des03 = "show url of video";
-	flashvars.des04 = "upload new video";
-	flashvars.des05 = "download original";
-	flashvars.des06a = "switch to fullscreen mode";
-	flashvars.des06b = "switch to window mode";
-	flashvars.des07a = "switch to 4:3";
-	flashvars.des07b = "switch to 16:9";
-	flashvars.des07c = "switch to original aspect ratio";
-	flashvars.des07d = "switch to ";
-	flashvars.des07e = "4:3";
-	flashvars.des07f = "16:9";
-	flashvars.des07g = "original aspect ratio";
-	flashvars.des08 = "comment on this video";
-	flashvars.des09 = "open chat";
-	flashvars.des10 = "email to a friend";
-	flashvars.des11a = "save to favorites";
-	flashvars.des11b = "save to favorites (log in)";
-	flashvars.des12 = "advertising";
-	flashvars.cancel = "cancel";
-	flashvars.ok = "ok";
-	flashvars.close = "close";
-	flashvars.send = "send";
-	flashvars.det01 = "poor";
-	flashvars.det02 = "nothing special";
-	flashvars.det03 = "worth watching";
-	flashvars.det04 = "pretty cool";
-	flashvars.det05 = "excellent";
-	flashvars.det06 = "thank you for rating";
-	flashvars.det07 = "you must be logged in to rate";
-	flashvars.det08 = "an error occured processing your vote";
-	flashvars.det09 = "added";
-	flashvars.det10 = "by";
-	flashvars.det11 = "views";
-	flashvars.det12 = "comments";
-	flashvars.det13 = "favored";
-	flashvars.det14 = "category";
-	flashvars.det15 = "tags";
-	flashvars.det16 = "rate this video";
-	flashvars.det17 = "added to favorites";
-	flashvars.det18 = "save to favorites";
-	flashvars.det19 = "flag as inappropriate";
-	flashvars.det20 = "download original";
-	flashvars.dfi01 = "an error occured";
-	flashvars.dfi02 = "a security error occured";
-	flashvars.dfi03 = "downloading ";
-	flashvars.dfi04 = "url of file";
-	flashvars.dfi05 = "external download";
-	flashvars.dfi06 = "download in player";
-	flashvars.dfi07 = "re-download";
-	flashvars.dfi08 = "retry";
-	flashvars.over1 = "You have watched ";
-	flashvars.over2a = " minute of video today.";
-	flashvars.over2b = " minutes of video today.";
-	flashvars.over3 = "Please wait ";
-	flashvars.over4a = " minute or click here to enjoy unlimited use of Megavideo.";
-	flashvars.over4b = " minutes or click here to enjoy unlimited use of Megavideo.";
-	flashvars.emb01 = "click on the following html code to copy it into clipboard and -paste it to your site's html code.";
-	flashvars.emb02 = "embedding disabled by video owner.";
-	flashvars.stf01 = "please check your email address";
-	flashvars.stf02 = "please check recepient's email address";
-	flashvars.stf03 = "your email was successfully sent.";
-	flashvars.stf04 = "an error occured, please try again later.";
-	flashvars.stf05 = "friend's e-mail";
-	flashvars.stf06 = "your email";
-	flashvars.stf07 = "your message";
-	flashvars.fav01 = "do you wish to add this video to your favorites?";
-	flashvars.fav02 = "processing, please wait...";
-	flashvars.fav03 = "added to favorites";
-	flashvars.fav04 = "an error occured, please try again later.";
+	var viewsloaded = false;
+	var commentsloaded = false;
+	var favoritesloaded = false;
 
-	flashvars.cha01 = "Megavideo chat";
-	flashvars.cha02 = "Now chatting";
-	flashvars.cha03 = "An error occured, please try again later.";
-	flashvars.cha04 = "You have joined the room.";
-	flashvars.cha05 = " has joined the room.";
-	flashvars.cha06 = " left the room";
-	flashvars.cha07 = "new message in chat"; 
-	flashvars.cha08 = "new messages in chat"; 
-
-	flashvars.user = "";
-
-	flashvars.com01 = "post new comment";
-	flashvars.com02 = "back to video";
-	flashvars.com03 = "loading data, please wait";
-	flashvars.com04 = "enter your comment";
-	flashvars.com05 = "comment posted.";
-	flashvars.com06 = "an error occured, please try again later.";
-	flashvars.com07 = "processing, please wait";
-	flashvars.com08 = "characters left: ";
-	flashvars.com09 = "this video has not been commented yet.";
-	flashvars.copycode = "copy code";
-		flashvars.latin = "1";
-		flashvars.embed = "%3Cobject+width%3D%22640%22+height%3D%22480%22%3E%3Cparam+name%3D%22movie%22+value%3D%22http%3A%2F%2Fwww.megavideo.com%2Fv%2FFBK8L7MI66ec0f52919527641554202ee7fd9398%22%3E%3C%2Fparam%3E%3Cparam+name%3D%22allowFullScreen%22+value%3D%22true%22%3E%3C%2Fparam%3E%3Cembed+src%3D%22http%3A%2F%2Fwww.megavideo.com%2Fv%2FFBK8L7MI66ec0f52919527641554202ee7fd9398%22+type%3D%22application%2Fx-shockwave-flash%22+allowfullscreen%3D%22true%22+width%3D%22640%22+height%3D%22480%22%3E%3C%2Fembed%3E%3C%2Fobject%3E";
-	flashvars.language = "en";
-	flashvars.un = "c414769863eacabddd3ef59931b365a0";
-	flashvars.k1 = "39992";
-	flashvars.k2 = "177893";
-	flashvars.s = "181";
-
-	
-	flashvars.v = "FBK8L7MI";
-
-	
-	
-	
-	var params = {};
-	
-	params.scale = "noscale";
-	params.salign = "tl";
-	params.wmode = "window";
-	params.swliveconnect = "true";
-	params.allowscriptaccess = "always";
-	params.allowfullscreen = "true";
-	
-	var attributes = {};
-	
-	attributes.id = "mvplayer";
-	swfobject.embedSWF("http://wwwstatic.megavideo.com/mv_player.swf", "playercontainer", "992", "558", "0", false, flashvars, params, attributes);
-
-	
-
-	document.relatedloaded=false;
-	document.largeplayer=true;
-	document.smallplayerloaded=false;
-	function showrelated()
+	function loadvideos(type)
 	{
-	  document.getElementById('embed_html').style.display='none';
+	  document.getElementById('featured_html').style.display = 'none';
+	  document.getElementById('views_html').style.display = 'none';
+	  document.getElementById('comments_html').style.display = 'none';
+	  document.getElementById('favorites_html').style.display = 'none';
 
-	  if (document.getElementById('mcadunit'))
+	  if (type == '1')
 	  {
-	    document.getElementById('mcadunit').style.display='none';
+	    document.getElementById('featured_html').style.display = '';
 	  }
-
-	  if (document.relatedloaded == false)
+	  if (type == '2')
 	  {
-	    document.getElementById('loading_ico').style.display = '';
-	    document.getElementById('relatedfrm').submit();
-	  }
-	  else
-	  {
-	    document.getElementById('related_bottom').style.display = '';
-	    document.getElementById('related_html').style.display = '';
-	    document.getElementById('related_header').style.display = '';
-
-	  }
-	}
-	function closerelated()
-	{
-	  document.getElementById('related_html').style.display = 'none';
-	  document.getElementById('related_header').style.display = 'none';
-      document.getElementById('related_bottom').style.display = 'none';
-	}
-	function adjustplayer()
-	{
-	  if (document.largeplayer)
-	  {
-	    document.getElementById('mvplayer').width = '640';
-	    document.getElementById('playerdiv').style.width = '640';
-	    document.getElementById('playerdiv').style.height = '360';
-	    document.getElementById('playerbg').style.backgroundImage='url("mvgui/small_vid_bg2.gif")';
-	    document.getElementById('mvplayer').height = '360';
-	    document.getElementById('playertd').height = '451';
-		document.largeplayer=false;
-	    document.getElementById('smallmenu').style.display = '';
-	    document.getElementById('bigmenu').style.display = 'none';
-		if (!document.smallplayerloaded)
+	    document.getElementById('views_html').style.display = '';
+		if (!viewsloaded)
 		{
-			
-			smallmenu1o.src = 'mvgui/en/ps_menu_o_01.gif';
-			smallmenu2o.src = 'mvgui/en/ps_menu_o_02.gif';
-			smallmenu3o.src = 'mvgui/en/ps_menu_o_03.gif';
-			smallmenu4o.src = 'mvgui/en/ps_menu_o_04.gif';
-			
+		  document.getElementById('videoloader').style.display='';
+		  setTimeout("document.getElementById('vidloader').startLoader();",100);
+		  document.getElementById('ajaxtype').value = 'views';
+		  document.getElementById('ajaxfrm').submit();
 		}
-		document.smallplayerloaded=true;
 	  }
-	  else
+	  if (type == '3')
 	  {
-	    document.getElementById('mvplayer').width = '992';
-	    document.getElementById('playerdiv').style.width = '992';
-	    document.getElementById('playerdiv').style.height = '558';
-	    document.getElementById('mvplayer').height = '558';
-	    document.getElementById('playertd').height = '649';
-		document.largeplayer=true;
-	    document.getElementById('playerbg').style.backgroundImage='url("mvgui/big_vid_bg2.gif")';
-	    document.getElementById('smallmenu').style.display = 'none';
-	    document.getElementById('bigmenu').style.display = '';
+	    document.getElementById('comments_html').style.display = '';
+		if (!commentsloaded)
+		{
+		  document.getElementById('videoloader').style.display='';
+		  setTimeout("document.getElementById('vidloader').startLoader();",100);
+		  document.getElementById('ajaxtype').value = 'comments';
+		  document.getElementById('ajaxfrm').submit();
+		}
 	  }
-	}
-	
-	function embedvideo()
-	{
-	  document.getElementById('related_html').style.display='none';
-	  document.getElementById('related_header').style.display='none';
-	  document.getElementById('related_bottom').style.display='none';
-	  document.getElementById('embed_html').style.display='';
-	}
-
-	function embedclose()
-	{
-	  document.getElementById('related_html').style.display='none';
-	  document.getElementById('related_header').style.display='none';
-	  document.getElementById('related_bottom').style.display='none';
-	  document.getElementById('embed_html').style.display='none';
-	}
-
-	function resizing()
-	{
-	   if (cinmode == 1)
-	   {
-	     resizecinema();
-	   }
-	}
-
-
-	function playercomplete()
-	{
-	  document.allowresize=true;
-	}
-
-	function playerout()
-	{ 
-	  if (document.allowresize)
+	  if (type == '4')
 	  {
-	    document.getElementById('mvplayer').hideNavigation();
+	    document.getElementById('favorites_html').style.display = '';
+		if (!favoritesloaded)
+		{
+		  document.getElementById('videoloader').style.display='';
+		  setTimeout("document.getElementById('vidloader').startLoader();",100);
+		  document.getElementById('ajaxtype').value = 'favorites';
+		  document.getElementById('ajaxfrm').submit();
+		}
 	  }
 	}
+
 	
-
-	document.allowresize=false;
-
-
 	</script>
+	
+
+
+
+	<div style="position:absolute;">
+	<form method="POST" target="ajaxframe" id="ajaxfrm" action="ajaxvideos.php">
+	<input type="hidden" name="type" id="ajaxtype">
+	</form>
+	</div>
+
+
+	
+	<!-- TODAYS FEATURED VIDEOS -->
+	<div style="position:relative; width:621px; height:20px; margin-left:4px; margin-top:2px;">
+
+	<div style="position:absolute; left:0px; top:0px;" id="flash_fs"></div>
+
+	<script type="text/javascript">
+	var flashvars = {};
+	flashvars.feat01 = "Featured";
+	flashvars.feat02 = "Most viewed";
+	flashvars.feat03 = "Most discussed";
+	flashvars.feat04 = "Top Favorites";
+	var params = {};
+	params.wmode = "transparent";
+	params.allowscriptaccess = "always";
+	swfobject.embedSWF("http://wwwstatic.megavideo.com/mvgui/fs.swf", "flash_fs", "605", "34", "0", false, flashvars, params);
+	</script>
+	
+	<div style="position:absolute; top:36px; left:0px; width:605px; height:145px; background-image:url('http://wwwstatic.megavideo.com/mvgui/feat_bg.gif');"></div>
+
+
+	</div>
+	<IMG SRC="http://wwwstatic.megavideo.com/mvgui/spacer.gif" WIDTH="1" HEIGHT="43" BORDER="0" ALT="">
+	
+
+	
+	<style type="text/css">
+	.v1 { position:absolute; top:0px; left:0px; }
+	.v2 { position:absolute; top:7px; left:7px; overflow: hidden; width: 125px; height:73px; padding-top: -5px; }
+	.v3 { position:relative; text-align:left; width:260; font-size:11px; line-height:15px; }
+	.v4 { position:relative; text-align:left; width:260; font-size:11px; line-height:15px;  }
+	.v5 { font-size:10px; font-weight:bold; }
+	.v6 { font-size:11px; color:#000000; font-family:arial; }
+	.v7 { padding-top:4px; padding-bottom:1px; }
+	.v8 { position:relative; width:600px; margin-left:9px; height:20px; margin-top:12px; }
+	.v9 { font-weight:bold; color:#FD0819; }
+	.v10 { padding-left:7px; padding-top:2px; }
+	</style>
+	
+	
+	<div style="position:relative; width:610px; text-align:left;">
+	
+	<div style="position:relative; width:610px;" id="featured_html">
+		<div style="position:relative; width:610px;">
+	
+	
+	<script type="text/javascript">
+	videothumbs['ZORJ0OF7_1'] = 'http://img1.megavideo.com/02cac573802fae5a2e09bedd27215b45.jpg';
+	videothumbs['ZORJ0OF7_2'] = 'http://img4.megavideo.com/bfe11fe5df0e1ae9d6c30772d78fc12b.jpg';
+	videothumbs['ZORJ0OF7_3'] = 'http://img3.megavideo.com/ad7a4c57a4b5f02c326d8721cb656eff.jpg';
+	videothumbs['ZORJ0OF7_4'] = 'http://img1.megavideo.com/07e867b63744d1cb54bc408a43963dfe.jpg';
+	videothumbs['ZORJ0OF7_5'] = 'http://img1.megavideo.com/0b68c52eff37372c0729207822c1d98e.jpg';
+	videothumbs['ZORJ0OF7_6'] = 'http://img2.megavideo.com/1919a850dc714a5ad33e9f545d24dd1d.jpg';
+	videothumbs['ZORJ0OF7_7'] = 'http://img1.megavideo.com/4d7bb71e38fd0b262b20d3efef9ec583.jpg';
+	videothumbs['ZORJ0OF7_8'] = 'http://img2.megavideo.com/1445eb502061ba2665df93b06ead56a5.jpg';
+	videothumbs['ZORJ0OF7_9'] = 'http://img3.megavideo.com/a18aba88ab502edd7fd09197bff48f19.jpg';
+	</script>
+
+
+	<TABLE cellpadding="0" cellspacing="0" style="">
+	<TR>
+		<td width="12"></td>
+		<TD width="145" valign="top">
+		<div style="position:relative;">
+		<div class="v1"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/main_feat_thumb.gif" WIDTH="139" HEIGHT="88" BORDER="0" ALT=""></div>
+		<div class="v2"><a href="?v=ZORJ0OF7"><img src="http://img1.megavideo.com/4d7bb71e38fd0b262b20d3efef9ec583.jpg" border="0" width="125" height="94"  id="img_ZORJ0OF7" onmouseover="startslideshow('ZORJ0OF7');" onmouseout="stopslideshow('ZORJ0OF7');"></a></div>
+		</div>
+		</TD>
+		<TD  valign="top" width="280">
+		<TABLE cellpadding="0" cellspacing="0" style="font-size:11px;" width="100%">
+		<TR>
+			<TD height="20" valign="top" style="padding-top:3px;"><a href="?v=ZORJ0OF7" style="font-size:14px; color:#000000; text-decoration:none; font-family:arial;">Skydiving Out My Front Door</a></TD>
+		</TR>
+		<TR><TD height="4"></TD></TR>
+		<TR>
+			<TD height="63" valign="top">
+			<div class="v3" id="description_short_1ZORJ0OF7">
+			We ran out of eggs, so I had to go get some more. Shot at my loft, and from a hot air balloon over Perris, California. 			</div>
+
+			<div class="v4" style="display:none;" id="description_long_1ZORJ0OF7">
+			We ran out of eggs, so I had to go get some more. Shot at my loft, and from a hot air balloon over Perris, California. 			</div>
+			<div style="padding-top:11px; font-family:arial;"><b>Runtime:</b> &nbsp;<font class="v9">00:53</font></div> 
+
+			</div>
+			</TD>
+		</TR>
+		</TABLE>
+		</TD>
+		<td valign="top" width="3" style="padding-top:4px;">
+		<IMG SRC="http://wwwstatic.megavideo.com/mvgui/dots_v.gif" WIDTH="3" HEIGHT="105" BORDER="0" ALT="">
+		</td>
+		<td valign="top" class="v10">
+			<TABLE cellpadding="0" cellspacing="0">
+			<TR>
+				<TD><font class="v6">by:</font> <a href="?c=profile&user=jackie_brown" style="color:#656565; font-size:11px; font-family:arial;">jackie_brown</a></TD>
+			</TR>
+			<TR>
+				<TD><font class="v6">Views:</font> <font class="v5">23033</font></TD>
+			</TR>
+			<TR>
+				<TD><font class="v6">Comments:</font> <font class="v5">0</font></TD>
+			</TR>
+			<TR>
+			   <TD height="18" valign="middle">
+			<div class="v7"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"></div>			
+			   </TD>
+			</TR>
+			<TR>
+				<TD height="30" valign="bottom" width="150">
+				<a href="?c=channels&s=23" >Comedy</a> <a href="?c=channels&s=" ></a> 
+				</TD>
+			</TR>
+			</TABLE>
+		</td>
+	</TR>
+	</TABLE>
+	<div class="v8"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/start_line.gif" WIDTH="598" HEIGHT="1" BORDER="0" ALT=""></div>
+	</div>
+		<div style="position:relative; width:610px;">
+	
+	
+	<script type="text/javascript">
+	videothumbs['9JDZ8XCQ_1'] = 'http://img3.megavideo.com/24b7f9cd987ed319f4e0d418aeff7f00.jpg';
+	videothumbs['9JDZ8XCQ_2'] = 'http://img1.megavideo.com/c8368567e819d199d1bea8da82e2b9cf.jpg';
+	videothumbs['9JDZ8XCQ_3'] = 'http://img2.megavideo.com/588d67348c9ed749fb0c9c1022c7dd98.jpg';
+	videothumbs['9JDZ8XCQ_4'] = 'http://img3.megavideo.com/addef262b01f30d52e79b7de2b5cab07.jpg';
+	videothumbs['9JDZ8XCQ_5'] = 'http://img3.megavideo.com/eb804189f3d5de4dcc45692a4cecac0c.jpg';
+	videothumbs['9JDZ8XCQ_6'] = 'http://img1.megavideo.com/432f40771f921d8c46d5405d00746b51.jpg';
+	videothumbs['9JDZ8XCQ_7'] = 'http://img4.megavideo.com/376da51936d0955cb9668a1bdacf1781.jpg';
+	videothumbs['9JDZ8XCQ_8'] = 'http://img1.megavideo.com/089fbed273c5f681197b73d84f52fbde.jpg';
+	videothumbs['9JDZ8XCQ_9'] = 'http://img3.megavideo.com/ab168d4180eaafdfd160b55ba859f332.jpg';
+	</script>
+
+
+	<TABLE cellpadding="0" cellspacing="0" style="">
+	<TR>
+		<td width="12"></td>
+		<TD width="145" valign="top">
+		<div style="position:relative;">
+		<div class="v1"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/main_feat_thumb.gif" WIDTH="139" HEIGHT="88" BORDER="0" ALT=""></div>
+		<div class="v2"><a href="?v=9JDZ8XCQ"><img src="http://img1.megavideo.com/c8368567e819d199d1bea8da82e2b9cf.jpg" border="0" width="125" height="94"  id="img_9JDZ8XCQ" onmouseover="startslideshow('9JDZ8XCQ');" onmouseout="stopslideshow('9JDZ8XCQ');"></a></div>
+		</div>
+		</TD>
+		<TD  valign="top" width="280">
+		<TABLE cellpadding="0" cellspacing="0" style="font-size:11px;" width="100%">
+		<TR>
+			<TD height="20" valign="top" style="padding-top:3px;"><a href="?v=9JDZ8XCQ" style="font-size:14px; color:#000000; text-decoration:none; font-family:arial;">Transformers 3 Optimus Prime E..</a></TD>
+		</TR>
+		<TR><TD height="4"></TD></TR>
+		<TR>
+			<TD height="63" valign="top">
+			<div class="v3" id="description_short_19JDZ8XCQ">
+			Optimus Prime turns the corner hard followed by an explosion on the corner of Jackson and LaSalle. 			</div>
+
+			<div class="v4" style="display:none;" id="description_long_19JDZ8XCQ">
+			Optimus Prime turns the corner hard followed by an explosion on the corner of Jackson and LaSalle. 			</div>
+			<div style="padding-top:11px; font-family:arial;"><b>Runtime:</b> &nbsp;<font class="v9">00:42</font></div> 
+
+			</div>
+			</TD>
+		</TR>
+		</TABLE>
+		</TD>
+		<td valign="top" width="3" style="padding-top:4px;">
+		<IMG SRC="http://wwwstatic.megavideo.com/mvgui/dots_v.gif" WIDTH="3" HEIGHT="105" BORDER="0" ALT="">
+		</td>
+		<td valign="top" class="v10">
+			<TABLE cellpadding="0" cellspacing="0">
+			<TR>
+				<TD><font class="v6">by:</font> <a href="?c=profile&user=sweeeeex" style="color:#656565; font-size:11px; font-family:arial;">sweeeeex</a></TD>
+			</TR>
+			<TR>
+				<TD><font class="v6">Views:</font> <font class="v5">21831</font></TD>
+			</TR>
+			<TR>
+				<TD><font class="v6">Comments:</font> <font class="v5">0</font></TD>
+			</TR>
+			<TR>
+			   <TD height="18" valign="middle">
+			<div class="v7"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"></div>			
+			   </TD>
+			</TR>
+			<TR>
+				<TD height="30" valign="bottom" width="150">
+				<a href="?c=channels&s=24" >Entertainment</a> <a href="?c=channels&s=" ></a> 
+				</TD>
+			</TR>
+			</TABLE>
+		</td>
+	</TR>
+	</TABLE>
+	<div class="v8"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/start_line.gif" WIDTH="598" HEIGHT="1" BORDER="0" ALT=""></div>
+	</div>
+		<div style="position:relative; width:610px;">
+	
+	
+	<script type="text/javascript">
+	videothumbs['47QPH34X_1'] = 'http://img4.megavideo.com/f5511457b8909328535839b233bb9f42.jpg';
+	videothumbs['47QPH34X_2'] = 'http://img2.megavideo.com/58fc1efd307b2c9e7220f98201bbb30e.jpg';
+	videothumbs['47QPH34X_3'] = 'http://img3.megavideo.com/28a829891861e7c9c41e01e45b8d65bb.jpg';
+	videothumbs['47QPH34X_4'] = 'http://img1.megavideo.com/4e9028b0548d57141941c75023b39b29.jpg';
+	videothumbs['47QPH34X_5'] = 'http://img3.megavideo.com/ae94b2362c3d4fe68f372d24f9629e20.jpg';
+	videothumbs['47QPH34X_6'] = 'http://img4.megavideo.com/fc680e158a79fcb47af3ac92b21bff68.jpg';
+	videothumbs['47QPH34X_7'] = 'http://img4.megavideo.com/b7c84cc8c7d480deb02559b7b51ecb22.jpg';
+	videothumbs['47QPH34X_8'] = 'http://img2.megavideo.com/d712915d94cf3e0d116778340c0c18ba.jpg';
+	videothumbs['47QPH34X_9'] = 'http://img2.megavideo.com/dcac77bb6e97d2d499adda86923e8b58.jpg';
+	</script>
+
+
+	<TABLE cellpadding="0" cellspacing="0" style="">
+	<TR>
+		<td width="12"></td>
+		<TD width="145" valign="top">
+		<div style="position:relative;">
+		<div class="v1"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/main_feat_thumb.gif" WIDTH="139" HEIGHT="88" BORDER="0" ALT=""></div>
+		<div class="v2"><a href="?v=47QPH34X"><img src="http://img1.megavideo.com/4e9028b0548d57141941c75023b39b29.jpg" border="0" width="125" height="94"  id="img_47QPH34X" onmouseover="startslideshow('47QPH34X');" onmouseout="stopslideshow('47QPH34X');"></a></div>
+		</div>
+		</TD>
+		<TD  valign="top" width="280">
+		<TABLE cellpadding="0" cellspacing="0" style="font-size:11px;" width="100%">
+		<TR>
+			<TD height="20" valign="top" style="padding-top:3px;"><a href="?v=47QPH34X" style="font-size:14px; color:#000000; text-decoration:none; font-family:arial;">Phonecall Between Mel And Old ..</a></TD>
+		</TR>
+		<TR><TD height="4"></TD></TR>
+		<TR>
+			<TD height="63" valign="top">
+			<div class="v3" id="description_short_147QPH34X">
+			This phonecall is obviously not real. Mel Gibson audio was taken from perezhilton and Old Spice audio was taken from the awesome advertising campaign 			</div>
+
+			<div class="v4" style="display:none;" id="description_long_147QPH34X">
+			This phonecall is obviously not real. Mel Gibson audio was taken from perezhilton and Old Spice audio was taken from the awesome advertising campaign 			</div>
+			<div style="padding-top:11px; font-family:arial;"><b>Runtime:</b> &nbsp;<font class="v9">02:34</font></div> 
+
+			</div>
+			</TD>
+		</TR>
+		</TABLE>
+		</TD>
+		<td valign="top" width="3" style="padding-top:4px;">
+		<IMG SRC="http://wwwstatic.megavideo.com/mvgui/dots_v.gif" WIDTH="3" HEIGHT="105" BORDER="0" ALT="">
+		</td>
+		<td valign="top" class="v10">
+			<TABLE cellpadding="0" cellspacing="0">
+			<TR>
+				<TD><font class="v6">by:</font> <a href="?c=profile&user=yankovic44" style="color:#656565; font-size:11px; font-family:arial;">yankovic44</a></TD>
+			</TR>
+			<TR>
+				<TD><font class="v6">Views:</font> <font class="v5">21963</font></TD>
+			</TR>
+			<TR>
+				<TD><font class="v6">Comments:</font> <font class="v5">0</font></TD>
+			</TR>
+			<TR>
+			   <TD height="18" valign="middle">
+			<div class="v7"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"></div>			
+			   </TD>
+			</TR>
+			<TR>
+				<TD height="30" valign="bottom" width="150">
+				<a href="?c=channels&s=24" >Entertainment</a> <a href="?c=channels&s=" ></a> 
+				</TD>
+			</TR>
+			</TABLE>
+		</td>
+	</TR>
+	</TABLE>
+	<div class="v8"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/start_line.gif" WIDTH="598" HEIGHT="1" BORDER="0" ALT=""></div>
+	</div>
+		<div style="position:relative; width:610px;">
+	
+	
+	<script type="text/javascript">
+	videothumbs['D92XLXB9_1'] = 'http://img4.megavideo.com/f197021b535293ef0885a856d5b152fb.jpg';
+	videothumbs['D92XLXB9_2'] = 'http://img4.megavideo.com/7861f5e582391a1f9645e885bfcef228.jpg';
+	videothumbs['D92XLXB9_3'] = 'http://img1.megavideo.com/0d4a6739bfa85bca615e862ed712974e.jpg';
+	videothumbs['D92XLXB9_4'] = 'http://img2.megavideo.com/9e2fa35c9ff14e3b3fcf24ea42f49339.jpg';
+	videothumbs['D92XLXB9_5'] = 'http://img2.megavideo.com/d6b947bf4b5cfdf5ea135a00e78242b9.jpg';
+	videothumbs['D92XLXB9_6'] = 'http://img3.megavideo.com/ade9c3a14b0267f5449943ba769f43dd.jpg';
+	videothumbs['D92XLXB9_7'] = 'http://img3.megavideo.com/61b95ac97c5032aa61c66c6274ad4937.jpg';
+	videothumbs['D92XLXB9_8'] = 'http://img2.megavideo.com/175e7e10e6b74341cce7fb53489dac00.jpg';
+	videothumbs['D92XLXB9_9'] = 'http://img3.megavideo.com/610a1f0360b9c5d76d5e333b907ee08c.jpg';
+	</script>
+
+
+	<TABLE cellpadding="0" cellspacing="0" style="">
+	<TR>
+		<td width="12"></td>
+		<TD width="145" valign="top">
+		<div style="position:relative;">
+		<div class="v1"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/main_feat_thumb.gif" WIDTH="139" HEIGHT="88" BORDER="0" ALT=""></div>
+		<div class="v2"><a href="?v=D92XLXB9"><img src="http://img3.megavideo.com/61b95ac97c5032aa61c66c6274ad4937.jpg" border="0" width="125" height="94"  id="img_D92XLXB9" onmouseover="startslideshow('D92XLXB9');" onmouseout="stopslideshow('D92XLXB9');"></a></div>
+		</div>
+		</TD>
+		<TD  valign="top" width="280">
+		<TABLE cellpadding="0" cellspacing="0" style="font-size:11px;" width="100%">
+		<TR>
+			<TD height="20" valign="top" style="padding-top:3px;"><a href="?v=D92XLXB9" style="font-size:14px; color:#000000; text-decoration:none; font-family:arial;">Lindsay Lohan Sent To Jail</a></TD>
+		</TR>
+		<TR><TD height="4"></TD></TR>
+		<TR>
+			<TD height="63" valign="top">
+			<div class="v3" id="description_short_1D92XLXB9">
+			Lindsay lohan has turned herself in and begun her 90 day jail sentence. 			</div>
+
+			<div class="v4" style="display:none;" id="description_long_1D92XLXB9">
+			Lindsay lohan has turned herself in and begun her 90 day jail sentence. 			</div>
+			<div style="padding-top:11px; font-family:arial;"><b>Runtime:</b> &nbsp;<font class="v9">04:37</font></div> 
+
+			</div>
+			</TD>
+		</TR>
+		</TABLE>
+		</TD>
+		<td valign="top" width="3" style="padding-top:4px;">
+		<IMG SRC="http://wwwstatic.megavideo.com/mvgui/dots_v.gif" WIDTH="3" HEIGHT="105" BORDER="0" ALT="">
+		</td>
+		<td valign="top" class="v10">
+			<TABLE cellpadding="0" cellspacing="0">
+			<TR>
+				<TD><font class="v6">by:</font> <a href="?c=profile&user=hardyghislain" style="color:#656565; font-size:11px; font-family:arial;">hardyghislain</a></TD>
+			</TR>
+			<TR>
+				<TD><font class="v6">Views:</font> <font class="v5">21660</font></TD>
+			</TR>
+			<TR>
+				<TD><font class="v6">Comments:</font> <font class="v5">1</font></TD>
+			</TR>
+			<TR>
+			   <TD height="18" valign="middle">
+			<div class="v7"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"></div>			
+			   </TD>
+			</TR>
+			<TR>
+				<TD height="30" valign="bottom" width="150">
+				<a href="?c=channels&s=25" >News&nbsp;&&nbsp;Blogs</a> <a href="?c=channels&s=" ></a> 
+				</TD>
+			</TR>
+			</TABLE>
+		</td>
+	</TR>
+	</TABLE>
+	<div class="v8"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/start_line.gif" WIDTH="598" HEIGHT="1" BORDER="0" ALT=""></div>
+	</div>
+		<div style="position:relative; width:610px;">
+	
+	
+	<script type="text/javascript">
+	videothumbs['RSXALGCM_1'] = 'http://img1.megavideo.com/c00d0f00bdb97c2a27a963beba347574.jpg';
+	videothumbs['RSXALGCM_2'] = 'http://img1.megavideo.com/861ad3eae6362362a01b3819748826cd.jpg';
+	videothumbs['RSXALGCM_3'] = 'http://img2.megavideo.com/53db64c2865f48a0ff30b3fc69a3f449.jpg';
+	videothumbs['RSXALGCM_4'] = 'http://img3.megavideo.com/acf3607f953da760cd55c2cedcde4ba7.jpg';
+	videothumbs['RSXALGCM_5'] = 'http://img2.megavideo.com/5711560873b9d6d3897db916ddacdfd9.jpg';
+	videothumbs['RSXALGCM_6'] = 'http://img4.megavideo.com/f258fe6df608123dbe15c6e230463708.jpg';
+	videothumbs['RSXALGCM_7'] = 'http://img4.megavideo.com/fc488f5d66c070ded7c65777c64021a0.jpg';
+	videothumbs['RSXALGCM_8'] = 'http://img3.megavideo.com/6f8297de6062ba3d4ec94873d6bc190c.jpg';
+	videothumbs['RSXALGCM_9'] = 'http://img4.megavideo.com/3ebaec4ee409c7415574147bb10c944e.jpg';
+	</script>
+
+
+	<TABLE cellpadding="0" cellspacing="0" style="">
+	<TR>
+		<td width="12"></td>
+		<TD width="145" valign="top">
+		<div style="position:relative;">
+		<div class="v1"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/main_feat_thumb.gif" WIDTH="139" HEIGHT="88" BORDER="0" ALT=""></div>
+		<div class="v2"><a href="?v=RSXALGCM"><img src="http://img4.megavideo.com/fc488f5d66c070ded7c65777c64021a0.jpg" border="0" width="125" height="94"  id="img_RSXALGCM" onmouseover="startslideshow('RSXALGCM');" onmouseout="stopslideshow('RSXALGCM');"></a></div>
+		</div>
+		</TD>
+		<TD  valign="top" width="280">
+		<TABLE cellpadding="0" cellspacing="0" style="font-size:11px;" width="100%">
+		<TR>
+			<TD height="20" valign="top" style="padding-top:3px;"><a href="?v=RSXALGCM" style="font-size:14px; color:#000000; text-decoration:none; font-family:arial;">Cat Defends House From Bear</a></TD>
+		</TR>
+		<TR><TD height="4"></TD></TR>
+		<TR>
+			<TD height="63" valign="top">
+			<div class="v3" id="description_short_1RSXALGCM">
+			All the bear wanted was a little bit of garbage, but no, the cat had to go be a dick. Next time the bear may realize he is 10x bigger. 			</div>
+
+			<div class="v4" style="display:none;" id="description_long_1RSXALGCM">
+			All the bear wanted was a little bit of garbage, but no, the cat had to go be a dick. Next time the bear may realize he is 10x bigger. 			</div>
+			<div style="padding-top:11px; font-family:arial;"><b>Runtime:</b> &nbsp;<font class="v9">00:43</font></div> 
+
+			</div>
+			</TD>
+		</TR>
+		</TABLE>
+		</TD>
+		<td valign="top" width="3" style="padding-top:4px;">
+		<IMG SRC="http://wwwstatic.megavideo.com/mvgui/dots_v.gif" WIDTH="3" HEIGHT="105" BORDER="0" ALT="">
+		</td>
+		<td valign="top" class="v10">
+			<TABLE cellpadding="0" cellspacing="0">
+			<TR>
+				<TD><font class="v6">by:</font> <a href="?c=profile&user=rogeree" style="color:#656565; font-size:11px; font-family:arial;">rogeree</a></TD>
+			</TR>
+			<TR>
+				<TD><font class="v6">Views:</font> <font class="v5">22829</font></TD>
+			</TR>
+			<TR>
+				<TD><font class="v6">Comments:</font> <font class="v5">2</font></TD>
+			</TR>
+			<TR>
+			   <TD height="18" valign="middle">
+			<div class="v7"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"></div>			
+			   </TD>
+			</TR>
+			<TR>
+				<TD height="30" valign="bottom" width="150">
+				<a href="?c=channels&s=15" >Pets&nbsp;&&nbsp;Animals</a> <a href="?c=channels&s=" ></a> 
+				</TD>
+			</TR>
+			</TABLE>
+		</td>
+	</TR>
+	</TABLE>
+	<div class="v8"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/start_line.gif" WIDTH="598" HEIGHT="1" BORDER="0" ALT=""></div>
+	</div>
+		<div style="position:relative; width:610px;">
+	
+	
+	<script type="text/javascript">
+	videothumbs['G3RMVIYM_1'] = 'http://img3.megavideo.com/6d06422d98d8c18a05413d67891d6a04.jpg';
+	videothumbs['G3RMVIYM_2'] = 'http://img4.megavideo.com/74c16b11f63761892bccc9400254b5bc.jpg';
+	videothumbs['G3RMVIYM_3'] = 'http://img3.megavideo.com/2f479140bfcceb7a9f2568d27404bf4e.jpg';
+	videothumbs['G3RMVIYM_4'] = 'http://img3.megavideo.com/23fc59a95bfe5c0d4e88df0abffc258d.jpg';
+	videothumbs['G3RMVIYM_5'] = 'http://img4.megavideo.com/3b3471d85ba124d35432f872ff32e419.jpg';
+	videothumbs['G3RMVIYM_6'] = 'http://img3.megavideo.com/617f71919514f6983ba676894daffac0.jpg';
+	videothumbs['G3RMVIYM_7'] = 'http://img2.megavideo.com/18146deed70ef4ef73f408b5f24984e5.jpg';
+	videothumbs['G3RMVIYM_8'] = 'http://img4.megavideo.com/38807c539c22a21e0935f92e20966fa5.jpg';
+	videothumbs['G3RMVIYM_9'] = 'http://img2.megavideo.com/db57c9a6773599e576402d05506b1586.jpg';
+	</script>
+
+
+	<TABLE cellpadding="0" cellspacing="0" style="">
+	<TR>
+		<td width="12"></td>
+		<TD width="145" valign="top">
+		<div style="position:relative;">
+		<div class="v1"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/main_feat_thumb.gif" WIDTH="139" HEIGHT="88" BORDER="0" ALT=""></div>
+		<div class="v2"><a href="?v=G3RMVIYM"><img src="http://img3.megavideo.com/2f479140bfcceb7a9f2568d27404bf4e.jpg" border="0" width="125" height="94"  id="img_G3RMVIYM" onmouseover="startslideshow('G3RMVIYM');" onmouseout="stopslideshow('G3RMVIYM');"></a></div>
+		</div>
+		</TD>
+		<TD  valign="top" width="280">
+		<TABLE cellpadding="0" cellspacing="0" style="font-size:11px;" width="100%">
+		<TR>
+			<TD height="20" valign="top" style="padding-top:3px;"><a href="?v=G3RMVIYM" style="font-size:14px; color:#000000; text-decoration:none; font-family:arial;">Interview With A Robot</a></TD>
+		</TR>
+		<TR><TD height="4"></TD></TR>
+		<TR>
+			<TD height="63" valign="top">
+			<div class="v3" id="description_short_1G3RMVIYM">
+			Amy Harmon sits down to talk with the Bina48 about what it's like to be a robot. 			</div>
+
+			<div class="v4" style="display:none;" id="description_long_1G3RMVIYM">
+			Amy Harmon sits down to talk with the Bina48 about what it's like to be a robot. 			</div>
+			<div style="padding-top:11px; font-family:arial;"><b>Runtime:</b> &nbsp;<font class="v9">04:54</font></div> 
+
+			</div>
+			</TD>
+		</TR>
+		</TABLE>
+		</TD>
+		<td valign="top" width="3" style="padding-top:4px;">
+		<IMG SRC="http://wwwstatic.megavideo.com/mvgui/dots_v.gif" WIDTH="3" HEIGHT="105" BORDER="0" ALT="">
+		</td>
+		<td valign="top" class="v10">
+			<TABLE cellpadding="0" cellspacing="0">
+			<TR>
+				<TD><font class="v6">by:</font> <a href="?c=profile&user=amyharmon" style="color:#656565; font-size:11px; font-family:arial;">amyharmon</a></TD>
+			</TR>
+			<TR>
+				<TD><font class="v6">Views:</font> <font class="v5">21626</font></TD>
+			</TR>
+			<TR>
+				<TD><font class="v6">Comments:</font> <font class="v5">1</font></TD>
+			</TR>
+			<TR>
+			   <TD height="18" valign="middle">
+			<div class="v7"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"></div>			
+			   </TD>
+			</TR>
+			<TR>
+				<TD height="30" valign="bottom" width="150">
+				<a href="?c=channels&s=26" >Science&nbsp;&&nbsp;Technology</a> <a href="?c=channels&s=" ></a> 
+				</TD>
+			</TR>
+			</TABLE>
+		</td>
+	</TR>
+	</TABLE>
+	<div class="v8"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/start_line.gif" WIDTH="598" HEIGHT="1" BORDER="0" ALT=""></div>
+	</div>
+		<div style="position:relative; width:610px;">
+	
+	
+	<script type="text/javascript">
+	videothumbs['8T8OZ2SP_1'] = 'http://img2.megavideo.com/1cbdfb2c17b191af504dc80621d877eb.jpg';
+	videothumbs['8T8OZ2SP_2'] = 'http://img4.megavideo.com/382b552de5acaf963c5402a71797eaf8.jpg';
+	videothumbs['8T8OZ2SP_3'] = 'http://img1.megavideo.com/8e1ecf8aa02082662f7de55dbff374c9.jpg';
+	videothumbs['8T8OZ2SP_4'] = 'http://img1.megavideo.com/812cb75330f815471906230589b76a0a.jpg';
+	videothumbs['8T8OZ2SP_5'] = 'http://img4.megavideo.com/354d77fce358d6b87bc1285a7e426c63.jpg';
+	videothumbs['8T8OZ2SP_6'] = 'http://img1.megavideo.com/48d63e44a3b76f89e10284286621dece.jpg';
+	videothumbs['8T8OZ2SP_7'] = 'http://img2.megavideo.com/5e1158290624fac25343a96a0d160c75.jpg';
+	videothumbs['8T8OZ2SP_8'] = 'http://img2.megavideo.com/5f77825e7f337545089ac375e36be88b.jpg';
+	videothumbs['8T8OZ2SP_9'] = 'http://img1.megavideo.com/0e409bb8d87c1913db14dd1004eb7a1f.jpg';
+	</script>
+
+
+	<TABLE cellpadding="0" cellspacing="0" style="">
+	<TR>
+		<td width="12"></td>
+		<TD width="145" valign="top">
+		<div style="position:relative;">
+		<div class="v1"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/main_feat_thumb.gif" WIDTH="139" HEIGHT="88" BORDER="0" ALT=""></div>
+		<div class="v2"><a href="?v=8T8OZ2SP"><img src="http://img4.megavideo.com/382b552de5acaf963c5402a71797eaf8.jpg" border="0" width="125" height="94"  id="img_8T8OZ2SP" onmouseover="startslideshow('8T8OZ2SP');" onmouseout="stopslideshow('8T8OZ2SP');"></a></div>
+		</div>
+		</TD>
+		<TD  valign="top" width="280">
+		<TABLE cellpadding="0" cellspacing="0" style="font-size:11px;" width="100%">
+		<TR>
+			<TD height="20" valign="top" style="padding-top:3px;"><a href="?v=8T8OZ2SP" style="font-size:14px; color:#000000; text-decoration:none; font-family:arial;">Sing Talk (Tik Tok Parody)</a></TD>
+		</TR>
+		<TR><TD height="4"></TD></TR>
+		<TR>
+			<TD height="63" valign="top">
+			<div class="v3" id="description_short_18T8OZ2SP">
+			Here's another parody to Ke$ha's Tik Tok, better than the original! Tho$e who can't $ing, talk. 			</div>
+
+			<div class="v4" style="display:none;" id="description_long_18T8OZ2SP">
+			Here's another parody to Ke$ha's Tik Tok, better than the original! Tho$e who can't $ing, talk. 			</div>
+			<div style="padding-top:11px; font-family:arial;"><b>Runtime:</b> &nbsp;<font class="v9">02:12</font></div> 
+
+			</div>
+			</TD>
+		</TR>
+		</TABLE>
+		</TD>
+		<td valign="top" width="3" style="padding-top:4px;">
+		<IMG SRC="http://wwwstatic.megavideo.com/mvgui/dots_v.gif" WIDTH="3" HEIGHT="105" BORDER="0" ALT="">
+		</td>
+		<td valign="top" class="v10">
+			<TABLE cellpadding="0" cellspacing="0">
+			<TR>
+				<TD><font class="v6">by:</font> <a href="?c=profile&user=chaudfontaine" style="color:#656565; font-size:11px; font-family:arial;">chaudfontaine</a></TD>
+			</TR>
+			<TR>
+				<TD><font class="v6">Views:</font> <font class="v5">17969</font></TD>
+			</TR>
+			<TR>
+				<TD><font class="v6">Comments:</font> <font class="v5">2</font></TD>
+			</TR>
+			<TR>
+			   <TD height="18" valign="middle">
+			<div class="v7"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"></div>			
+			   </TD>
+			</TR>
+			<TR>
+				<TD height="30" valign="bottom" width="150">
+				<a href="?c=channels&s=23" >Comedy</a> <a href="?c=channels&s=" ></a> 
+				</TD>
+			</TR>
+			</TABLE>
+		</td>
+	</TR>
+	</TABLE>
+	<div class="v8"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/start_line.gif" WIDTH="598" HEIGHT="1" BORDER="0" ALT=""></div>
+	</div>
+		<div style="position:relative; width:610px;">
+	
+	
+	<script type="text/javascript">
+	videothumbs['XTEC9MXH_1'] = 'http://img2.megavideo.com/53966f75be480a71613be71e7c627046.jpg';
+	videothumbs['XTEC9MXH_2'] = 'http://img2.megavideo.com/16f1584a1c249bcf41fa3cd3c607f233.jpg';
+	videothumbs['XTEC9MXH_3'] = 'http://img2.megavideo.com/5cfb567a37e98926ec497463b43cd00c.jpg';
+	videothumbs['XTEC9MXH_4'] = 'http://img3.megavideo.com/a326358b2377942391a0e4c4bdb6c91b.jpg';
+	videothumbs['XTEC9MXH_5'] = 'http://img1.megavideo.com/c06ed8abd6ea6351c08abe56d9050924.jpg';
+	videothumbs['XTEC9MXH_6'] = 'http://img4.megavideo.com/f4be5220855b13c167d757e31444a6f2.jpg';
+	videothumbs['XTEC9MXH_7'] = 'http://img2.megavideo.com/97db3411925e22690b7cdb348fc6581e.jpg';
+	videothumbs['XTEC9MXH_8'] = 'http://img1.megavideo.com/020575a48727eb1bad758b212517d6da.jpg';
+	videothumbs['XTEC9MXH_9'] = 'http://img4.megavideo.com/32d88109cc67ffc215a4708a9cb1b256.jpg';
+	</script>
+
+
+	<TABLE cellpadding="0" cellspacing="0" style="">
+	<TR>
+		<td width="12"></td>
+		<TD width="145" valign="top">
+		<div style="position:relative;">
+		<div class="v1"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/main_feat_thumb.gif" WIDTH="139" HEIGHT="88" BORDER="0" ALT=""></div>
+		<div class="v2"><a href="?v=XTEC9MXH"><img src="http://img2.megavideo.com/16f1584a1c249bcf41fa3cd3c607f233.jpg" border="0" width="125" height="94"  id="img_XTEC9MXH" onmouseover="startslideshow('XTEC9MXH');" onmouseout="stopslideshow('XTEC9MXH');"></a></div>
+		</div>
+		</TD>
+		<TD  valign="top" width="280">
+		<TABLE cellpadding="0" cellspacing="0" style="font-size:11px;" width="100%">
+		<TR>
+			<TD height="20" valign="top" style="padding-top:3px;"><a href="?v=XTEC9MXH" style="font-size:14px; color:#000000; text-decoration:none; font-family:arial;">Miss Hooters International 201..</a></TD>
+		</TR>
+		<TR><TD height="4"></TD></TR>
+		<TR>
+			<TD height="63" valign="top">
+			<div class="v3" id="description_short_1XTEC9MXH">
+			Watch the Top 10 finishers announced at the 14th Annual Hooters Swimsuit Pageant held in Ft. Lauderdale, Florida on July 10th. 			</div>
+
+			<div class="v4" style="display:none;" id="description_long_1XTEC9MXH">
+			Watch the Top 10 finishers announced at the 14th Annual Hooters Swimsuit Pageant held in Ft. Lauderdale, Florida on July 10th. 			</div>
+			<div style="padding-top:11px; font-family:arial;"><b>Runtime:</b> &nbsp;<font class="v9">03:57</font></div> 
+
+			</div>
+			</TD>
+		</TR>
+		</TABLE>
+		</TD>
+		<td valign="top" width="3" style="padding-top:4px;">
+		<IMG SRC="http://wwwstatic.megavideo.com/mvgui/dots_v.gif" WIDTH="3" HEIGHT="105" BORDER="0" ALT="">
+		</td>
+		<td valign="top" class="v10">
+			<TABLE cellpadding="0" cellspacing="0">
+			<TR>
+				<TD><font class="v6">by:</font> <a href="?c=profile&user=hootersincint" style="color:#656565; font-size:11px; font-family:arial;">hootersincint</a></TD>
+			</TR>
+			<TR>
+				<TD><font class="v6">Views:</font> <font class="v5">21916</font></TD>
+			</TR>
+			<TR>
+				<TD><font class="v6">Comments:</font> <font class="v5">2</font></TD>
+			</TR>
+			<TR>
+			   <TD height="18" valign="middle">
+			<div class="v7"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"></div>			
+			   </TD>
+			</TR>
+			<TR>
+				<TD height="30" valign="bottom" width="150">
+				<a href="?c=channels&s=24" >Entertainment</a> <a href="?c=channels&s=" ></a> 
+				</TD>
+			</TR>
+			</TABLE>
+		</td>
+	</TR>
+	</TABLE>
+	<div class="v8"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/start_line.gif" WIDTH="598" HEIGHT="1" BORDER="0" ALT=""></div>
+	</div>
+		<div style="position:relative; width:610px;">
+	
+	
+	<script type="text/javascript">
+	videothumbs['4IWZWP4U_1'] = 'http://img1.megavideo.com/09d95fa9595b81b0afe7cc92f4f0c391.jpg';
+	videothumbs['4IWZWP4U_2'] = 'http://img3.megavideo.com/e7018d9938ba0242f98f9d3449b696ed.jpg';
+	videothumbs['4IWZWP4U_3'] = 'http://img3.megavideo.com/ed27545e446dfd821450ab1cacca733e.jpg';
+	videothumbs['4IWZWP4U_4'] = 'http://img3.megavideo.com/e5c3ec58efccd0ccfe122ea78398ebe4.jpg';
+	videothumbs['4IWZWP4U_5'] = 'http://img4.megavideo.com/798655428f793c0a5aa6fa52e7484820.jpg';
+	videothumbs['4IWZWP4U_6'] = 'http://img1.megavideo.com/8c64231b2b9bec1f1d10fdd3aa6a26d2.jpg';
+	videothumbs['4IWZWP4U_7'] = 'http://img1.megavideo.com/46e4f55cffc037a6338aa9fcf94ffb46.jpg';
+	videothumbs['4IWZWP4U_8'] = 'http://img3.megavideo.com/661f1038bd6f2e7cd907d1bda6adfb75.jpg';
+	videothumbs['4IWZWP4U_9'] = 'http://img3.megavideo.com/aec68bdbb2b7b4001f7bd0994dfe5baf.jpg';
+	</script>
+
+
+	<TABLE cellpadding="0" cellspacing="0" style="">
+	<TR>
+		<td width="12"></td>
+		<TD width="145" valign="top">
+		<div style="position:relative;">
+		<div class="v1"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/main_feat_thumb.gif" WIDTH="139" HEIGHT="88" BORDER="0" ALT=""></div>
+		<div class="v2"><a href="?v=4IWZWP4U"><img src="http://img4.megavideo.com/798655428f793c0a5aa6fa52e7484820.jpg" border="0" width="125" height="94"  id="img_4IWZWP4U" onmouseover="startslideshow('4IWZWP4U');" onmouseout="stopslideshow('4IWZWP4U');"></a></div>
+		</div>
+		</TD>
+		<TD  valign="top" width="280">
+		<TABLE cellpadding="0" cellspacing="0" style="font-size:11px;" width="100%">
+		<TR>
+			<TD height="20" valign="top" style="padding-top:3px;"><a href="?v=4IWZWP4U" style="font-size:14px; color:#000000; text-decoration:none; font-family:arial;">Flirting The Wrong Way</a></TD>
+		</TR>
+		<TR><TD height="4"></TD></TR>
+		<TR>
+			<TD height="63" valign="top">
+			<div class="v3" id="description_short_14IWZWP4U">
+			A guy flirting with a girl, touching her leg with her shoe, until she finds out there is mud all over her leg. Hilarious! 			</div>
+
+			<div class="v4" style="display:none;" id="description_long_14IWZWP4U">
+			A guy flirting with a girl, touching her leg with her shoe, until she finds out there is mud all over her leg. Hilarious! 			</div>
+			<div style="padding-top:11px; font-family:arial;"><b>Runtime:</b> &nbsp;<font class="v9">00:42</font></div> 
+
+			</div>
+			</TD>
+		</TR>
+		</TABLE>
+		</TD>
+		<td valign="top" width="3" style="padding-top:4px;">
+		<IMG SRC="http://wwwstatic.megavideo.com/mvgui/dots_v.gif" WIDTH="3" HEIGHT="105" BORDER="0" ALT="">
+		</td>
+		<td valign="top" class="v10">
+			<TABLE cellpadding="0" cellspacing="0">
+			<TR>
+				<TD><font class="v6">by:</font> <a href="?c=profile&user=thelandline" style="color:#656565; font-size:11px; font-family:arial;">thelandline</a></TD>
+			</TR>
+			<TR>
+				<TD><font class="v6">Views:</font> <font class="v5">15938</font></TD>
+			</TR>
+			<TR>
+				<TD><font class="v6">Comments:</font> <font class="v5">3</font></TD>
+			</TR>
+			<TR>
+			   <TD height="18" valign="middle">
+			<div class="v7"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"></div>			
+			   </TD>
+			</TR>
+			<TR>
+				<TD height="30" valign="bottom" width="150">
+				<a href="?c=channels&s=23" >Comedy</a> <a href="?c=channels&s=" ></a> 
+				</TD>
+			</TR>
+			</TABLE>
+		</td>
+	</TR>
+	</TABLE>
+	<div class="v8"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/start_line.gif" WIDTH="598" HEIGHT="1" BORDER="0" ALT=""></div>
+	</div>
+		<div style="position:relative; width:610px;">
+	
+	
+	<script type="text/javascript">
+	videothumbs['PWKQ4TZT_1'] = 'http://img2.megavideo.com/1ee98e81e61506d3f50712b4bdbbfe13.jpg';
+	videothumbs['PWKQ4TZT_2'] = 'http://img3.megavideo.com/20e2554129fbe55d205c1995b881c407.jpg';
+	videothumbs['PWKQ4TZT_3'] = 'http://img1.megavideo.com/40b8039c7023e496c0425ca928466356.jpg';
+	videothumbs['PWKQ4TZT_4'] = 'http://img2.megavideo.com/119276926a7c4e91b50a023a75b5b616.jpg';
+	videothumbs['PWKQ4TZT_5'] = 'http://img2.megavideo.com/592c2f4f7278a3924e7a1df552e8e83f.jpg';
+	videothumbs['PWKQ4TZT_6'] = 'http://img3.megavideo.com/61d8868c30dc87788b40103e06013c73.jpg';
+	videothumbs['PWKQ4TZT_7'] = 'http://img2.megavideo.com/983bd1c1609b94127ae9fd8edba5e363.jpg';
+	videothumbs['PWKQ4TZT_8'] = 'http://img2.megavideo.com/d2d917e678616a4f4a5f07b26d155d56.jpg';
+	videothumbs['PWKQ4TZT_9'] = 'http://img1.megavideo.com/47adb6eaff9211af637062860aac8662.jpg';
+	</script>
+
+
+	<TABLE cellpadding="0" cellspacing="0" style="">
+	<TR>
+		<td width="12"></td>
+		<TD width="145" valign="top">
+		<div style="position:relative;">
+		<div class="v1"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/main_feat_thumb.gif" WIDTH="139" HEIGHT="88" BORDER="0" ALT=""></div>
+		<div class="v2"><a href="?v=PWKQ4TZT"><img src="http://img2.megavideo.com/983bd1c1609b94127ae9fd8edba5e363.jpg" border="0" width="125" height="94"  id="img_PWKQ4TZT" onmouseover="startslideshow('PWKQ4TZT');" onmouseout="stopslideshow('PWKQ4TZT');"></a></div>
+		</div>
+		</TD>
+		<TD  valign="top" width="280">
+		<TABLE cellpadding="0" cellspacing="0" style="font-size:11px;" width="100%">
+		<TR>
+			<TD height="20" valign="top" style="padding-top:3px;"><a href="?v=PWKQ4TZT" style="font-size:14px; color:#000000; text-decoration:none; font-family:arial;">Sinkhole Swallows Up Car</a></TD>
+		</TR>
+		<TR><TD height="4"></TD></TR>
+		<TR>
+			<TD height="63" valign="top">
+			<div class="v3" id="description_short_1PWKQ4TZT">
+			TAMPA - A sinkhole on 50th street near Fowler Avenue opened up and swallowed a car on Sunday. Eleven families who live in a building next to the sinkhole at the Bordeaux Village (<a href="javascript:showmore('1PWKQ4TZT');" style="font-weight:normal; font-family:arial;">more</a>)			</div>
+
+			<div class="v4" style="display:none;" id="description_long_1PWKQ4TZT">
+			TAMPA - A sinkhole on 50th street near Fowler Avenue opened up and swallowed a car on Sunday. Eleven families who live in a building next to the sinkhole at the Bordeaux Village Condominiums were forced to evacuate due to safety concerns.
+
+Hillsborough County Fire Rescue said the sinkhole was approximately 20 feet by 10 feet and growing. No injuries were reported. (<a href="javascript:showless('1PWKQ4TZT');" style="font-weight:normal; font-family:arial;">less</a>)			</div>
+			<div style="padding-top:11px; font-family:arial;"><b>Runtime:</b> &nbsp;<font class="v9">02:07</font></div> 
+
+			</div>
+			</TD>
+		</TR>
+		</TABLE>
+		</TD>
+		<td valign="top" width="3" style="padding-top:4px;">
+		<IMG SRC="http://wwwstatic.megavideo.com/mvgui/dots_v.gif" WIDTH="3" HEIGHT="105" BORDER="0" ALT="">
+		</td>
+		<td valign="top" class="v10">
+			<TABLE cellpadding="0" cellspacing="0">
+			<TR>
+				<TD><font class="v6">by:</font> <a href="?c=profile&user=dcdownjones" style="color:#656565; font-size:11px; font-family:arial;">dcdownjones</a></TD>
+			</TR>
+			<TR>
+				<TD><font class="v6">Views:</font> <font class="v5">22352</font></TD>
+			</TR>
+			<TR>
+				<TD><font class="v6">Comments:</font> <font class="v5">1</font></TD>
+			</TR>
+			<TR>
+			   <TD height="18" valign="middle">
+			<div class="v7"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"><img class="rating" src="mvgui/smallstar001.gif"></div>			
+			   </TD>
+			</TR>
+			<TR>
+				<TD height="30" valign="bottom" width="150">
+				<a href="?c=channels&s=25" >News&nbsp;&&nbsp;Blogs</a> <a href="?c=channels&s=" ></a> 
+				</TD>
+			</TR>
+			</TABLE>
+		</td>
+	</TR>
+	</TABLE>
+	<div class="v8"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/start_line.gif" WIDTH="598" HEIGHT="1" BORDER="0" ALT=""></div>
+	</div>
+		</div>
+
+	<div id="comments_html"   style="position:relative; width:610px; display:none; text-align:left;">&nbsp;</div>
+	<div id="favorites_html"  style="position:relative; width:610px; display:none; text-align:left;">&nbsp;</div>
+	<div id="views_html"	  style="position:relative; width:610px; display:none; text-align:left;">&nbsp;</div>
+
+	<div style="position:absolute; width:610px; text-align:center; display:none;" id="videoloader">
+	<center>
+	<IMG SRC="http://wwwstatic.megavideo.com/mvgui/loading.gif" WIDTH="20" HEIGHT="20" BORDER="0" ALT="">
+	</center>
+	</div>
+	
+	</div>
+	
+	
+	
+
+	
+
 	</TD>
-</TR>
-</TABLE>
+	<TD valign="top" style="padding-top:0px;">
+
+	<!--
+	<div style="position:relative; width:359px; height:35;">
+	<script type="text/javascript">  
+	searchbutton = new Image(81,28);
+	searchbuttonover = new Image(81,28);
+	searchbuttonover.src = 'mvgui/b_search_o.gif';
+	</script>
+	<div style="position:absolute; top:4px; left:-4px; width:276px; height:28px; background-image:url('mvgui/search_field.gif');"><div style="position:absolute; top:2px; left:3px;"><input type="text" style="width:270px; height:22px; border: 1px solid; border-color:#AAAAAA;"></div></div>
+	<div style="position:absolute; left:275px; top:4px;"><a href=""><IMG SRC="mvgui/b_search.gif" WIDTH="81" HEIGHT="28" BORDER="0" ALT="" onmouseover="searchbutton.src=this.src; this.src=searchbuttonover.src;" onmouseout="this.src=searchbutton.src;"></a></div>
+	</div>
+	-->
+
+	
+ 
+
+	
+	<div style="position:relative; width:355px; height:299;margin-top:2px;">
+	<div style="position:absolute; left:-2px; top:0px; width:355px; height:299px; background-image:url('http://wwwstatic.megavideo.com/mvgui/ad_area.gif');">
+	<div style="position:absolute; left:18px; top:1px;">
+	
+	<div style="position:relative; width:320px; height:298;"><iframe src="goviral.php" width="320" height="287" scrolling="no" frameborder="no"></iframe></div>
+
+
+	</div>
+	</div>
+	</div>
+
+
+
+	
 
 
 
 
-<div style="position:relative; width:996px; height:265px; margin-top:-60px; display:none;" id="embed_html">
 
-<div style="position:absolute; left:0px; top:0px; width:996px; height:66px; background-image:url('mvgui/related_top.gif');"></div>
-<div style="position:absolute; left:0px; top:66px; width:996px; height:120px; background-image:url('mvgui/related_mid.gif');"></div>
-<div style="position:absolute; left:0px; top:186px; width:996px; height:16px; background-image:url('mvgui/related_bottom.gif');"></div>
-
-
-
-
-
-
-
-
-<div style="position:absolute; left:82px; top:25px; width:400px; text-align:left; font-weight:bold; font-size:12px;">Set the size of the player:</div>
-
-
-<div style="position:absolute; left:82px; top:65px; width:450px; text-align:left; font-weight:bold; font-size:12px;">
-<TABLE cellpadding="0" cellspacing="0" style="font-size:12px;">
-<TR>
-	<TD>width:&nbsp;</TD>
-	<TD><input type="text" name="width" id="embed_width" style="width:50px;" class="text" value="640" onkeyup="prefill_width(this.value);" ></TD>
-	<TD>&nbsp;pixels</TD>
-</TR>
-<TR>
-	<TD colspan="3" height="28"></TD>
-</TR>
-<TR>
-	<TD>height:&nbsp;</TD>
-	<TD><input type="text" name="height" id="embed_height" style="width:50px;" class="text" value="360" onkeyup="prefill_height(this.value);"></TD>
-	<TD>&nbsp;pixels</TD>
-</TR>
-</TABLE>
-</div>
-
-
-<div style="position:absolute; left:82px; top:154px; width:400px; text-align:left; font-weight:bold; font-size:12px; color:#FD0819; display:none;" id="minimumwidthmsg">The minimum width is 440 pixels.</div>
-<div style="position:absolute; left:82px; top:154px; width:400px; text-align:left; font-weight:bold; font-size:12px; color:#FD0819; display:none;" id="minimumheightmsg">The minimum height is 330 pixels.</div>
-
-<div style="position:absolute; left:280px; top:65px; width:400px; text-align:left; font-weight:bold; font-size:12px;">
-<TABLE cellpadding="0" cellspacing="0" style="font-size:12px;">
-<TR>
-	<TD>size:&nbsp;</TD>
-	<TD>
-	<select onchange="selectchange();" id="sizeselectbox">
-	<option>Small</option>
-	<option selected>Normal</option>
-	<option>Large</option>
-	<option>XXL</option>
-	<option>Custom</option>
-	</select>
-	</TD>
-	<TD></TD>
-</TR>
-<TR>
-	<TD colspan="3" height="28"></TD>
-</TR>
-<TR>
-	<TD colspan="3" ><input type="checkbox" checked id="aspectratio"> <font id="aspectratiotxt">Keep aspect ratio</font></TD>
-</TR>
-</TABLE>
-</div>
-
-<script type="text/javascript">
-
-embedcloseimg = new Image(23,24);
-embedcloseimgo = new Image(23,24);
-embedcloseimgo.src = 'mvgui/embed_closew_o.gif';
-
-</script>
-
-
-<div style="position:absolute; left:510px; top:25px; width:300px; text-align:left; font-weight:bold; font-size:12px;">Copy paste the following code:</div>
-
-<div style="position:absolute; left:620px; top:19px; width:360px; text-align:right; font-weight:bold; font-size:12px;"><a href="javascript:embedclose();"><IMG SRC="mvgui/embed_closew.gif" WIDTH="23" HEIGHT="24" BORDER="0" ALT="" onmouseover="embedcloseimg.src=this.src; this.src=embedcloseimgo.src;" onmouseout="this.src=embedcloseimg.src;"></a></div>
-
-<div style="position:absolute; left:510px; top:52px; width:400px; text-align:left; font-weight:bold; font-size:12px;">
-<textarea style="width:400px; height:90px; border: 1px solid #A5ACB2;" id="embedcode" onclick="this.select();" readonly></textarea>
-</div>
-
-
-<div style="position:absolute; left:510px; top:161px; width:300px; text-align:left; font-weight:bold; font-size:12px;"><a href="javascript:previewplayer();" style="font-weight:bold; font-size:12px; text-decoration:none; color:#000000;">preview player</a></div>
-
-
-</div>
-
-<script type="text/javascript">
-
-customsetting=false;
-
-min_width = 440;
-min_height = 330;
-
-original_width = '320';
-original_height = '240';
-
-ewidth = 640;
-eheight = Math.floor((640/original_width)*original_height);
-
-custom_width = ewidth;
-custom_height = eheight;
-
-prefill_w = 640;
-prefill_h = eheight;
-
-document.getElementById('embed_width').value = ewidth;
-document.getElementById('embed_height').value = eheight;
-
-setembedcode(ewidth,eheight);
-
-
-
-
-function setplayersize(newwidth,newheight)
-{ 
-	  if (newheight == 0)
-	  {
-	    ewidth = newwidth;
-		eheight = Math.floor((newwidth/original_width)*original_height);
-
-		if (eheight < min_height)
-		{ 
-		  eheight = min_height;
-		  document.getElementById('aspectratio').disabled = true;
-		  document.getElementById('aspectratiotxt').color = '#757575';
-		  
-		}
-		else
-		{
-		  document.getElementById('aspectratio').disabled = false;
-		  document.getElementById('aspectratiotxt').color = '#000000';
-
-		}
-
-		document.getElementById('embed_width').value = ewidth;
-		document.getElementById('embed_height').value = eheight;
-		setembedcode(ewidth,eheight);
-	  }
-	  else if(newwidth == 0)
-	  {
-	    eheight = newheight;
+	<div style="position:relative; width:359px; height:115px;">
+	<div style="position:absolute; width:361px; height:110px; left:-5px; top:4px; background-image:url('http://wwwstatic.megavideo.com/mvgui/start_categ.gif');"></div>
+	
+	<div style="position:absolute; left:12px; top:10px; color:#000000; font-weight:bold; font-size:11px;">Categories:</div>
+	<div style="position:absolute; left:10px; top:26px;">
+	<TABLE width="336" cellpadding="0">
+	<TR>
+				<TD width="112" height="17"><a href="?c=categories&s=1" style="font-weight:normal; color:#000000;">Arts & Animations</a></TD>
 		
-		if (ewidth < min_width)
-		{ 
-		  ewidth = min_width;
-		  document.getElementById('aspectratio').disabled = true;
-		  document.getElementById('aspectratiotxt').color = '#757575';
-		}
-		else
-		{
-		  document.getElementById('aspectratio').disabled = false;
-		  document.getElementById('aspectratiotxt').color = '#000000';
-		}
+				<TD width="112" height="17"><a href="?c=categories&s=2" style="font-weight:normal; color:#000000;">Autos & Vehicles</a></TD>
+		
+				<TD width="112" height="17"><a href="?c=categories&s=23" style="font-weight:normal; color:#000000;">Comedy</a></TD>
+		</TR><TR>
+				<TD width="112" height="17"><a href="?c=categories&s=24" style="font-weight:normal; color:#000000;">Entertainment</a></TD>
+		
+				<TD width="112" height="17"><a href="?c=categories&s=10" style="font-weight:normal; color:#000000;">Music</a></TD>
+		
+				<TD width="112" height="17"><a href="?c=categories&s=25" style="font-weight:normal; color:#000000;">News & Blogs</a></TD>
+		</TR><TR>
+				<TD width="112" height="17"><a href="?c=categories&s=22" style="font-weight:normal; color:#000000;">People</a></TD>
+		
+				<TD width="112" height="17"><a href="?c=categories&s=15" style="font-weight:normal; color:#000000;">Pets & Animals</a></TD>
+		
+				<TD width="112" height="17"><a href="?c=categories&s=26" style="font-weight:normal; color:#000000;">Science & Technology</a></TD>
+		</TR><TR>
+				<TD width="112" height="17"><a href="?c=categories&s=17" style="font-weight:normal; color:#000000;">Sports</a></TD>
+		
+				<TD width="112" height="17"><a href="?c=categories&s=19" style="font-weight:normal; color:#000000;">Travel & Places</a></TD>
+		
+				<TD width="112" height="17"><a href="?c=categories&s=20" style="font-weight:normal; color:#000000;">Video Games</a></TD>
+		</TR><TR>
+			</TABLE>
+	</div>
 
-		ewidth = Math.floor((newheight/original_height)*original_width);
-		document.getElementById('embed_width').value = ewidth;
-		document.getElementById('embed_height').value = eheight;
-		setembedcode(ewidth,eheight);
-	  }
-	  else
-	  {
-	    ewidth = newwidth;
-	    eheight = newheight;
-	    document.getElementById('embed_width').value = newwidth;
-		document.getElementById('embed_height').value = newheight;
-		setembedcode(ewidth,eheight); 
-	  }
-	  
-}
+	
+	</div>
 
-
-function prefill_width(newwidth)
-{
-  if (isUnsignedInteger(newwidth))
-  {
-    if (newwidth < min_width)
-    { 
-	  document.getElementById('minimumwidthmsg').style.display = '';
-	  document.getElementById('embed_width').style.borderColor = '#FD0819';
-	  
-    }
-	else
-	{
-	  document.getElementById('embed_width').style.borderColor = '#A5ACB2';
-	  document.getElementById('minimumwidthmsg').style.display = 'none';
-	  prefill_w = newwidth;
-	  
-	  if (document.getElementById('aspectratio').checked == true)
-	  {
-	    setplayersize(newwidth,0);
-	  }
-	  else
-	  {
-	    setplayersize(newwidth,eheight);
-	  }
-	    
- 	  document.getElementById('sizeselectbox').selectedIndex = 4;
-	  customsetting=true;
-	  custom_width = ewidth;
-	  custom_height = eheight;
-	}
-  }
-  else
-  {
-    if (newwidth !== '')
-    {
-   	  document.getElementById('embed_width').value = prefill_w;
-	  
-      alert('Please enter a positive number.');
-	  
-	  document.getElementById('embed_width').style.borderColor = '#A5ACB2';
-	  document.getElementById('minimumwidthmsg').style.display = 'none';
-    }
-  }
-}
+	<div style="position:relative; width:359px; height:119px; margin-left:-3px; margin-top:0px;">
+	<div style="position:absolute; left:0px; top:-1px;">
+	<a href="?c=hd"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/hd_banner.jpg" WIDTH="359" HEIGHT="116" BORDER="0" ALT=""></a>
+	</div>
+	</div>
 
 
-function prefill_height(newheight)
-{
-  if (isUnsignedInteger(newheight))
-  {
-    if (newheight < min_height)
-    { 
-	  document.getElementById('minimumheightmsg').style.display = '';
-	  document.getElementById('embed_height').style.borderColor = '#FD0819';
-	  
-    }
-	else
-	{
-	  document.getElementById('embed_height').style.borderColor = '#A5ACB2';
-	  document.getElementById('minimumheightmsg').style.display = 'none';
-	  prefill_w = newheight;
-
-	  if (document.getElementById('aspectratio').checked == true)
-	  {
-	    setplayersize(0,newheight);
-  	  }
-	  else
-	  {
-	    setplayersize(ewidth,newheight);
-	  }
- 	  document.getElementById('sizeselectbox').selectedIndex = 4;
-	  customsetting=true;
-	  custom_width = ewidth;
-	  custom_height = eheight;
-	}
-  }
-  else
-  {
-    if (newheight !== '')
-    {
-   	  document.getElementById('embed_height').value = prefill_h;
-      alert('Please enter a positive number.');
-	  document.getElementById('embed_height').style.borderColor = '#A5ACB2';
-	  document.getElementById('minimumheightmsg').style.display = 'none';
-    }
-  }
-}
+	<div style="position:relative; width:359px; height:117px; margin-left:-3px; margin-top:3px;">
+	<div style="position:absolute; left:0px; top:0px;" id="flash_banm"></div>
+	<script type="text/javascript">
+	var flashvars = {};
+	var params = {};
+	params.wmode = "transparent";
+	params.allowscriptaccess = "always";
+	swfobject.embedSWF("http://wwwstatic.megavideo.com/mvgui/en/ban_m.swf", "flash_banm", "359", "112", "0", false, flashvars, params);
+	</script>
+	</div>
 
 
-function isUnsignedInteger(s) 
-{
-  return (s.toString().search(/^[0-9]+$/) == 0);
-}
+<!--
+
+	<div style="position:relative; width:359px; height:118px; margin-left:-3px; margin-top:0px;">
+	<div style="position:absolute; left:0px; top:0px;" id="flash_bantb"></div>
+	<script type="text/javascript">
+	var flashvars = {};
+	var params = {};
+	params.wmode = "transparent";
+	params.allowscriptaccess = "always";
+	swfobject.embedSWF("http://wwwstatic.megavideo.com/mvgui/en/ban_tb.swf", "flash_bantb", "359", "112", "0", false, flashvars, params);
+	</script>
+	</div>
+-->
+
+
+	<div style="position:relative; width:359px; height:118px; margin-left:-3px; margin-top:0px;">
+	<div style="position:absolute; left:0px; top:0px;">
+	<a href="manager/" target="_blank"><IMG SRC="http://wwwstatic.megavideo.com/mvgui/b_manager.jpg" WIDTH="359" HEIGHT="112" BORDER="0" ALT=""></a>
+	</div>
+	</div>
+
+
+	<div style="position:relative; width:359px; height:420px; margin-left:-3px; margin-top:0px;">
+	<div style="position:absolute; left:0px; top:0px;" id="flash_recent"></div>
+
+
+	<script type="text/javascript">
+	var flashvars = {};
+	flashvars.headline = "Recently uploaded videos";
+	flashvars.novideos = "No videos";
+	flashvars.lang = "en";
+	flashvars.loading = "loading";
+	flashvars.loadingtxt = "loading";
+	flashvars.loadingxml = "";
+	flashvars.c = "recentuploads";
+	var params = {};
+	params.wmode = "transparent";
+	params.allowscriptaccess = "always";
+	swfobject.embedSWF("http://wwwstatic.megavideo.com/recent.swf", "flash_recent", "359", "415", "0", false, flashvars, params);
+	</script>
+	</div>
+
+	
+	<div style="position:relative; width:359px; height:420px; margin-left:-3px; margin-top:1px;">	
+	<div style="position:absolute; left:0px; top:2px; width:359px;" id="">
+	<center><iframe src="unruley.php" width="300" height="265" scrolling="no" frameborder="no"></iframe></center>
+	</div>
+
+
+	
+	</div>
 
 
 
-function selectchange()
-{
-    document.getElementById('embed_width').style.borderColor = '#A5ACB2';
-    document.getElementById('minimumwidthmsg').style.display = 'none';
-    document.getElementById('embed_height').style.borderColor = '#A5ACB2';
-    document.getElementById('minimumheightmsg').style.display = 'none';
-
-	if (document.getElementById('sizeselectbox').selectedIndex == 0)
-	{
-	  // small
-	  setplayersize(450,0);
-	}
-	if (document.getElementById('sizeselectbox').selectedIndex == 1)
-	{
-	  // normal
-	  setplayersize(640,0); 
-	}
-	if (document.getElementById('sizeselectbox').selectedIndex == 2)
-	{
-	  // large
-	  setplayersize(800,0);
-
-	}
-	if (document.getElementById('sizeselectbox').selectedIndex == 3)
-	{
-	  // XXL
-	  setplayersize(1024,0);
-	}
-	if (document.getElementById('sizeselectbox').selectedIndex == 4)
-	{
-	  // custom
-	  if(customsetting)
-	  {
-	    setplayersize(custom_width,custom_height);
-	  }
-	}
-}
-
-function previewplayer()
-{
-  
-  window.open('previewplayer/?v=FBK8L7MI&width=' + ewidth + '&height=' + eheight + '&image=66ec0f52919527641554202ee7fd9398',name,'width='+(ewidth)+',height='+(eheight)+',scrollbars=no,status=no,resizable=yes, toolbar=no'); 
-  
-}
-
-function setembedcode(cwidth,cheight)
-{
-  
-  document.getElementById('embedcode').value = '<object width="' + cwidth + '" height="' + cheight + '"><param name="movie" value="http://www.megavideo.com/v/FBK8L7MI66ec0f52919527641554202ee7fd9398"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.megavideo.com/v/FBK8L7MI66ec0f52919527641554202ee7fd9398" type="application/x-shockwave-flash" allowfullscreen="true" width="' + cwidth + '" height="' + cheight + '"></embed></object>';
-  
-}
 
 
+
+	
+	
+	</TD>
+</TR>
+</TABLE>
+
+
+
+<iframe src="" width="1" height="1" style="border:0;" name="ajaxframe"></iframe>
+
+
+
+
+<script type="text/javascript">
+
+bottommenu1 = new Image(126,27);
+bottommenu1o = new Image(126,27);
+bottommenu1o.src = 'http://wwwstatic.megavideo.com/mvgui/menu/en/b_menu_o_02.gif';
+
+bottommenu2 = new Image(114,27);
+bottommenu2o = new Image(114,27);
+bottommenu2o.src = 'http://wwwstatic.megavideo.com/mvgui/menu/en/b_menu_o_03.gif';
+
+bottommenu3 = new Image(104,27);
+bottommenu3o = new Image(104,27);
+bottommenu3o.src = 'http://wwwstatic.megavideo.com/mvgui/menu/en/b_menu_o_04.gif';
+
+bottommenu4 = new Image(112,27);
+bottommenu4o = new Image(112,27);
+bottommenu4o.src = 'http://wwwstatic.megavideo.com/mvgui/menu/en/b_menu_o_05.gif';
+
+bottommenu5 = new Image(111,27);
+bottommenu5o = new Image(111,27);
+bottommenu5o.src = 'http://wwwstatic.megavideo.com/mvgui/menu/en/b_menu_o_06.gif';
+
+bottommenu6 = new Image(102,27);
+bottommenu6o = new Image(102,27);
+bottommenu6o.src = 'http://wwwstatic.megavideo.com/mvgui/menu/en/b_menu_o_07.gif';
+
+bottommenu7 = new Image(102,27);
+bottommenu7o = new Image(102,27);
+bottommenu7o.src = 'http://wwwstatic.megavideo.com/mvgui/menu/en/b_menu_o_08.gif';
 
 </script>
 
-<div style="position:relative; padding-top:10px; margin-top:-60px; width:996px; height:66px; background-image:url('mvgui/related_top.gif'); display:none;" id="related_header">
-<div style="position:absolute; left:12px; top:18px; width:482px; height:25px; background-image:url('mvgui/under_head2.gif');">
-<div style="position:absolute; left:15px; top:4px; color:#FFFFFF; font-size:12px; width:450px; text-align:left;">Related videos</div>
+
+<div style="position:relative; margin-left:5px;">
+<div style="position:absolute; left:0px; top:-5px; z-index:5;"><div style="position:relative; width:983px; height:85px;">
+<div style="position:absolute; top:15px; width:985px; text-align:center;">
+<center>
+
+<TABLE cellpadding="0" cellspacing="0">
+<TR>
+	<TD><IMG SRC="http://wwwstatic.megavideo.com/mvgui/menu/2010/b_menu_01.gif" WIDTH="327" HEIGHT="27" BORDER="0" ALT=""></TD>
+	<TD><a href="http://www.megaclick.com/index.php?c=site_profile&site_id=2" target="_blank"><IMG src="http://wwwstatic.megavideo.com/mvgui/menu/b_menu_02.gif" WIDTH="126" HEIGHT="27" BORDER="0" ALT="" onmouseover="bottommenu1.src=this.src; this.src=bottommenu1o.src;" onmouseout="this.src=bottommenu1.src;"></a></TD>
+	<TD><a href="?c=terms"><IMG src="http://wwwstatic.megavideo.com/mvgui/menu/b_menu_03.gif" WIDTH="124" HEIGHT="27" BORDER="0" ALT="" onmouseover="bottommenu2.src=this.src; this.src=bottommenu2o.src;" onmouseout="this.src=bottommenu2.src;"></a></TD>
+	<TD><a href="?c=privacy"><IMG src="http://wwwstatic.megavideo.com/mvgui/menu/b_menu_04.gif" WIDTH="73" HEIGHT="27" BORDER="0" ALT="" onmouseover="bottommenu3.src=this.src; this.src=bottommenu3o.src;" onmouseout="this.src=bottommenu3.src;"></a></TD>
+	<TD><a href="?c=dmca"><IMG src="http://wwwstatic.megavideo.com/mvgui/menu/b_menu_05.gif" WIDTH="69" HEIGHT="27" BORDER="0" ALT="" onmouseover="bottommenu4.src=this.src; this.src=bottommenu4o.src;" onmouseout="this.src=bottommenu4.src;"></a></TD>
+	<TD><a href="?c=abuse"><IMG src="http://wwwstatic.megavideo.com/mvgui/menu/b_menu_06.gif" WIDTH="108" HEIGHT="27" BORDER="0" ALT="" onmouseover="bottommenu5.src=this.src; this.src=bottommenu5o.src;" onmouseout="this.src=bottommenu5.src;"></a></TD>
+	<TD><a href="?c=about"><IMG src="http://wwwstatic.megavideo.com/mvgui/menu/b_menu_07.gif" WIDTH="78" HEIGHT="27" BORDER="0" ALT="" onmouseover="bottommenu6.src=this.src; this.src=bottommenu6o.src;" onmouseout="this.src=bottommenu6.src;"></a></TD>
+	<TD><a href="?c=contact"><IMG src="http://wwwstatic.megavideo.com/mvgui/menu/b_menu_08.gif" WIDTH="82" HEIGHT="27" BORDER="0" ALT="" onmouseover="bottommenu7.src=this.src; this.src=bottommenu7o.src;" onmouseout="this.src=bottommenu7.src;"></a></TD>
+</TR>
+</TABLE>
+</center>
 </div>
-<div style="position:absolute; left:500px; top:18px; width:482px; height:25px; background-image:url('mvgui/under_head2.gif');">
-<div style="position:absolute; left:15px; top:4px; color:#FFFFFF; font-size:12px; width:450px; text-align:left;">Other videos from this user</div>
-<div style="position:absolute; left:0px; top:4px; width:470px; text-align:right;"><a href="javascript:closerelated();" style="color:#FFFFFF; font-size:12px; font-weight:bold; text-decoration:none;">Close</a></div>
 </div>
-</div>
-
-<div style="position:relative; margin-top:-10px; width:996px; background-image:url('mvgui/related_mid.gif'); display:none;" id="related_html">&nbsp;</div>
-<div style="position:relative; margin-top:0px; width:996px; height:16px; background-image:url('mvgui/related_bottom.gif'); display:none;" id="related_bottom">&nbsp;</div>
-
-
-<div style="position:relative; margin-top:-60px; width:996px; margin-left:2px;" id="mcadunit">
-<iframe src="http://www.megavideo.com/mcad.php?id=22" width="993" height="270" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no"></iframe>
+</div><div style="position:relative; height:40px;"></div></div>
 </div>
 
 
-<div style="position:absolute; width:1px; height:1px;">
 
-<form method="POST" id="relatedfrm" action="relatedvideos.php" target="relatedframe">
-<input type="hidden" name="v" value="FBK8L7MI">
-</form>
-<iframe src="" width="1" height="1" name="relatedframe" style="border:none;" border="0"></iframe>
 
+</div>
+</center>
 
 
 

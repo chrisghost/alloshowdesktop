@@ -241,6 +241,7 @@ public class Search extends alloshowdesktop.Search implements Runnable {
         this.state = "starting";this.setChanged();this.notifyObservers();
         this.search = this.search.replace(' ', '+');
         this.result = searchTerm();
+        System.out.println(this.result.toString());
         this.state = "finished";this.setChanged();this.notifyObservers();
     }
 
