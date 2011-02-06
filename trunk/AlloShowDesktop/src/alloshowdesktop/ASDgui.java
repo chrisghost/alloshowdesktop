@@ -24,6 +24,7 @@ import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 import javax.swing.Box;
 import javax.swing.DefaultListCellRenderer;
+import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JDialog;
@@ -265,7 +266,7 @@ public class ASDgui extends javax.swing.JFrame {
                         .addComponent(view, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jButton3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 56, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 120, Short.MAX_VALUE)
                         .addComponent(jButton4)
                         .addGap(45, 45, 45)
                         .addComponent(jButton2))
@@ -289,7 +290,7 @@ public class ASDgui extends javax.swing.JFrame {
                     .addComponent(jButton2)
                     .addComponent(jButton3)
                     .addComponent(jButton4))
-                .addContainerGap(36, Short.MAX_VALUE))
+                .addContainerGap(34, Short.MAX_VALUE))
         );
 
         dbInfos.setText("Database infos :");
@@ -450,7 +451,7 @@ public class ASDgui extends javax.swing.JFrame {
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 201, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 174, Short.MAX_VALUE)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(pauseButton)
                     .addComponent(resumeButton)
@@ -499,7 +500,7 @@ public class ASDgui extends javax.swing.JFrame {
 
     private void treeValueChanged(javax.swing.event.TreeSelectionEvent evt) {//GEN-FIRST:event_treeValueChanged
         if (!this.tree.isSelectionEmpty()){
-            System.out.println(this.tree.getSelectionPath().toString());
+            System.out.println("PATH : "+this.tree.getSelectionPath().toString());
             if(this.tree.getSelectionPath().toString().split(", ").length == 3){
                 String[] parser = this.tree.getSelectionPath().toString().split(", ");
                 this.updateShowInfos(parser[1]);
@@ -586,10 +587,10 @@ public class ASDgui extends javax.swing.JFrame {
           try {
             tray.add(trayIcon);
           } catch (AWTException e) {
-            System.err.println("Can't add to tray");
+            System.err.println("Can't add to systray");
           }
         }else{
-            System.out.println("systay unavailable");
+            System.out.println("systray unavailable");
         }
 
         
@@ -597,20 +598,25 @@ public class ASDgui extends javax.swing.JFrame {
 
 
     private String downloadAndGetLink(java.awt.event.ActionEvent evt){
-        System.out.println(this.list.getSelectedIndex());
+        System.out.println("INDEX: " +this.list.getSelectedIndex());
         Episode e = this.actSeason.getEpisodes().get(this.list.getSelectedIndex());
         MegaVideo kDown = new MegaVideo();
 
+        System.out.println("create MV object");
+
         String uri = this.actShow.getName()+"S"+this.actSeason.getNumber()+"E"+e.getNumber()+".flv";
 
+        System.out.println("URL > "+e.getUrl());
+
         String url = kDown.downloadFromMV(kDown.alloSevenToMV(e.getUrl()));
+
+        System.out.println("url > "+url);
 
         if(url.contains("video unaviable")){
             popUp(url);
             return url;
         }else{
-            this.actionAdd(url+uri.replace(" ", "_"),
-                    this.actShow.getName(), this.actSeason.getNumber(), e.getNumber());
+            this.actionAdd(url+uri.replace(" ", "_"), this.actShow.getName(), this.actSeason.getNumber(), e.getNumber());
 
             return uri.replace(" ", "_");
         }
@@ -631,11 +637,11 @@ public class ASDgui extends javax.swing.JFrame {
         int i = 0;
 
         for(Episode e : l){
-            names[i] = e.getFakeName()+"#icon#"+main.getIcon(e.getHost());
+            String icon_url = main.getIcon(e.getHost());
+            names[i] = e.getFakeName()+"#icon#"+icon_url;
             i++;
         }
         this.list.setListData(names);
-
     }
 
     public void updateShowInfos(String str){
@@ -655,7 +661,7 @@ public class ASDgui extends javax.swing.JFrame {
     }
 
     public void setSearchInfosLabel(String s){
-        System.out.println(s);
+        System.out.println("search infos label = "+s);
         this.searchInfos.setText(s);
     }
     /**
@@ -767,7 +773,8 @@ public class ASDgui extends javax.swing.JFrame {
         try {
             u = new URL(url);
         } catch (MalformedURLException ex) {
-            Logger.getLogger(ASDgui.class.getName()).log(Level.SEVERE, null, ex);
+            //Logger.getLogger(ASDgui.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println("Mauvaise URL");
         }
         tableModel.addDownload(new Download(u, show, season, episode));
 
@@ -855,38 +862,28 @@ class ImageRenderer extends DefaultListCellRenderer
 
             String imgUrl = ((JLabel)c).getText().split("#icon#")[1];
 
+
+
             BufferedImage original = null;
             Image icon = null;
-            
-                //System.out.println(this.image);
-                //original = ImageIO.read(this.getClass().getResource(imgUrl));
-
+            try{
                 Toolkit tk = this.getToolkit();
                 icon = tk.getImage(this.getClass().getResource(imgUrl));
-                /*
-                BufferedImage bi = new BufferedImage(100, 100, BufferedImage.TYPE_INT_ARGB);
-                bi.getGraphics().drawImage(original, 0, 0, 100, 100, null);
-                icon = new ImageIcon(bi);
 
-            } catch (MalformedURLException ex) {
+                //System.out.println(this.getClass().getResource(imgUrl));
+            } catch (NullPointerException ex) {
                 Logger.getLogger(ASDgui.class.getName()).log(Level.SEVERE, null, ex);
-            }catch (IOException ex) {
-                Logger.getLogger(ASDgui.class.getName()).log(Level.SEVERE, null, ex);
-                icon = new javax.swing.ImageIcon(getClass().getResource("/alloshowdesktop/no_image.gif"));
-                 
-            }*/
+            }
+
             ImageIcon imgIcon = null;
             try {
-                imgIcon = new ImageIcon(icon);
+                imgIcon = new ImageIcon(imgUrl);
             } catch (java.lang.NullPointerException ex){
                 System.out.println("Error loading image " + imgUrl);
             }
+            ((JLabel)c).setIcon(imgIcon); //change the path accordingly
 
-
-                ((JLabel)c).setIcon(imgIcon); //change the path accordingly
-
-                ((JLabel)c).setText(((JLabel)c).getText().split("#icon#")[0]);
-
+            ((JLabel)c).setText(((JLabel)c).getText().split("#icon#")[0]);
 
         }
         return c;

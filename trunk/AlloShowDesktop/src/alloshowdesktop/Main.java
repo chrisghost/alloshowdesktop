@@ -23,7 +23,7 @@ import java.util.List;
  */
 public class Main {
 
-    private alloshowtv.Search alloshowtv = new alloshowtv.Search();
+    private alloshowtv.Search alloshowtv;// = new alloshowtv.Search();
     private alloseven.Search alloseven;// = new alloseven.Search();
     private ASDgui gui ;
     private List<Show> currentShows = new ArrayList<Show>();
@@ -95,7 +95,7 @@ public class Main {
 
     public void search(String s){
 //        this.currentShows = alloshowtv.searchTerm(s);
-        sObs.newSearch(new alloseven.Search(s));
+        sObs.newSearch(new alloshowtv.Search(s));
         
     }
 
@@ -134,7 +134,11 @@ public class Main {
     }
 
     public String getIcon(String k){
-        return this.icons.get(k);
+        if(this.icons.contains(k)){
+            return this.icons.get(k);
+        }else{
+            return "images/default.png";
+        }
     }
 
     public void saveShows(){

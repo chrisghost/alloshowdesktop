@@ -94,6 +94,8 @@ public class MegaVideo {
                 return "video unaviable";
             }
 
+        } catch (MalformedURLException ex){
+            System.out.println("Mauvaise URL : "+url);
         } catch (InterruptedException ex) {
             Logger.getLogger(MegaVideo.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
@@ -181,7 +183,8 @@ public class MegaVideo {
             
 
         }catch (MalformedURLException ex) {
-            ex.printStackTrace();
+            //ex.printStackTrace();
+            System.out.println("Mauvaise URL");
         } catch (IOException ex) {
             ex.printStackTrace();
         }
