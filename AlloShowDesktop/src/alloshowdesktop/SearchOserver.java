@@ -44,6 +44,8 @@ public class SearchOserver implements Observer{
             m = "Connecting...";
         else if(s.getState().equals("listing"))
             m = "Listing results...";
+        else if(s.getState().equals("allourl"))
+            m = "Waiting for AlloUrl.com restriction ...";
         else if(s.getState().contains("adding")){
             String title = s.getState().replace("adding ", "");
             m = "Processing "+title;
@@ -56,7 +58,7 @@ public class SearchOserver implements Observer{
         else
             m="...";
         
-        this.gui.setSearchInfosLabel(m);
+        this.gui.setSearchInfosLabel(m+" ("+s.getNbSofar()+")");
         
     }
 

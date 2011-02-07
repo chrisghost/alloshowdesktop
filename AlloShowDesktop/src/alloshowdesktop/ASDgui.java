@@ -67,6 +67,8 @@ public class ASDgui extends javax.swing.JFrame {
         this.loadingImage.setVisible(false);
 
         this.main.loadShows();
+
+        this.main.checkLinks();
     }
 
     private ASDgui() {
@@ -110,6 +112,12 @@ public class ASDgui extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
+        link = new javax.swing.JTextField();
+        getlink = new javax.swing.JButton();
+        viewEpisode = new javax.swing.JButton();
+        jLabel5 = new javax.swing.JLabel();
+        host = new javax.swing.JLabel();
         dbInfos = new javax.swing.JLabel();
         searchInfos = new javax.swing.JLabel();
         loadingImage = new javax.swing.JLabel();
@@ -121,6 +129,12 @@ public class ASDgui extends javax.swing.JFrame {
         cancelButton = new javax.swing.JButton();
         clearButton = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
+        alloUrlLinks = new javax.swing.JLabel();
+        jMenuBar1 = new javax.swing.JMenuBar();
+        jMenu1 = new javax.swing.JMenu();
+        jMenuItem1 = new javax.swing.JMenuItem();
+        jMenuItem2 = new javax.swing.JMenuItem();
+        jMenu2 = new javax.swing.JMenu();
 
         javax.swing.GroupLayout jDialog1Layout = new javax.swing.GroupLayout(jDialog1.getContentPane());
         jDialog1.getContentPane().setLayout(jDialog1Layout);
@@ -247,6 +261,32 @@ public class ASDgui extends javax.swing.JFrame {
             }
         });
 
+        jLabel4.setText("Lien : ");
+
+        link.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                linkActionPerformed(evt);
+            }
+        });
+
+        getlink.setText("Get link");
+        getlink.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                getlinkActionPerformed(evt);
+            }
+        });
+
+        viewEpisode.setText("View");
+        viewEpisode.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                viewEpisodeActionPerformed(evt);
+            }
+        });
+
+        jLabel5.setText("Host : ");
+
+        host.setText("_____");
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -254,6 +294,7 @@ public class ASDgui extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 537, Short.MAX_VALUE)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(Image, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
@@ -261,16 +302,27 @@ public class ASDgui extends javax.swing.JFrame {
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addComponent(jLabel2)
                                 .addGap(264, 264, 264))
-                            .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 349, Short.MAX_VALUE)))
+                            .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 409, Short.MAX_VALUE)))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(view, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jButton3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 120, Short.MAX_VALUE)
+                        .addGap(73, 73, 73)
                         .addComponent(jButton4)
-                        .addGap(45, 45, 45)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 152, Short.MAX_VALUE)
                         .addComponent(jButton2))
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 477, Short.MAX_VALUE))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(jLabel4)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(link, javax.swing.GroupLayout.PREFERRED_SIZE, 343, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(getlink)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(viewEpisode))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(jLabel5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(host)))
                 .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
@@ -283,14 +335,24 @@ public class ASDgui extends javax.swing.JFrame {
                         .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(Image, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 360, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel4)
+                    .addComponent(link, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(getlink)
+                    .addComponent(viewEpisode))
+                .addGap(8, 8, 8)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel5)
+                    .addComponent(host))
+                .addGap(18, 18, 18)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(41, 41, 41)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(view)
                     .addComponent(jButton2)
                     .addComponent(jButton3)
                     .addComponent(jButton4))
-                .addContainerGap(34, Short.MAX_VALUE))
+                .addContainerGap(22, Short.MAX_VALUE))
         );
 
         dbInfos.setText("Database infos :");
@@ -451,7 +513,7 @@ public class ASDgui extends javax.swing.JFrame {
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 174, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 218, Short.MAX_VALUE)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(pauseButton)
                     .addComponent(resumeButton)
@@ -464,22 +526,58 @@ public class ASDgui extends javax.swing.JFrame {
 
         jLabel3.setText("AlloShowDesktop By Chrissou");
 
+        jMenu1.setText("File");
+
+        jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/alloshowdesktop/ressources/database_refresh.png"))); // NOI18N
+        jMenuItem1.setText("Empty DB");
+        jMenuItem1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jMenuItem1MouseClicked(evt);
+            }
+        });
+        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem1ActionPerformed(evt);
+            }
+        });
+        jMenu1.add(jMenuItem1);
+
+        jMenuItem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/alloshowdesktop/ressources/process_icon.jpg"))); // NOI18N
+        jMenuItem2.setText("Transform AlloUrl links");
+        jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem2ActionPerformed(evt);
+            }
+        });
+        jMenu1.add(jMenuItem2);
+
+        jMenuBar1.add(jMenu1);
+
+        jMenu2.setText("Edit");
+        jMenuBar1.add(jMenu2);
+
+        setJMenuBar(jMenuBar1);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel3)
-                    .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 761, Short.MAX_VALUE))
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 761, Short.MAX_VALUE)
                 .addContainerGap())
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jLabel3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 291, Short.MAX_VALUE)
+                .addComponent(alloUrlLinks, javax.swing.GroupLayout.PREFERRED_SIZE, 293, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jLabel3)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel3)
+                    .addComponent(alloUrlLinks))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 689, Short.MAX_VALUE))
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 733, Short.MAX_VALUE))
         );
 
         pack();
@@ -512,7 +610,18 @@ public class ASDgui extends javax.swing.JFrame {
     }//GEN-LAST:event_treeValueChanged
 
     private void listValueChanged(javax.swing.event.ListSelectionEvent evt) {//GEN-FIRST:event_listValueChanged
-
+        Episode e = this.actSeason.getEpisodes().get(this.list.getSelectedIndex());
+        this.link.setText(e.getDirect_url());
+        this.host.setText(e.getHost());
+        if(e.getDirect_url().contains("209.212.147.251")){
+            this.getlink.setVisible(true);
+            this.viewEpisode.setVisible(false);
+        }
+        else{
+            this.getlink.setVisible(false);
+            if(e.getDirect_url().contains("megavideo"))
+                this.viewEpisode.setVisible(true);
+        }
       /*  try{
             if(!evt.getValueIsAdjusting()){
                 Episode e = this.actSeason.getEpisodes().get(evt.getFirstIndex());
@@ -567,7 +676,6 @@ public class ASDgui extends javax.swing.JFrame {
                 System.out.println("Launching mplayer ...");
                 Process p = Runtime.getRuntime().exec("mplayer /tmp/" + uri + " -cache 4096");
                 System.out.println("mplayer /tmp/" + uri);
-
             }
         } catch (IOException ex) {
             Logger.getLogger(ASDgui.class.getName()).log(Level.SEVERE, null, ex);
@@ -596,6 +704,39 @@ public class ASDgui extends javax.swing.JFrame {
         
     }//GEN-LAST:event_jButton4ActionPerformed
 
+    private void jMenuItem1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenuItem1MouseClicked
+
+        
+    }//GEN-LAST:event_jMenuItem1MouseClicked
+
+    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+        main.emptyDB();
+    }//GEN-LAST:event_jMenuItem1ActionPerformed
+
+    private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
+        this.main.processAlloUrlLinks();
+    }//GEN-LAST:event_jMenuItem2ActionPerformed
+
+    private void linkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_linkActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_linkActionPerformed
+
+    private void getlinkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_getlinkActionPerformed
+        Episode e = this.actSeason.getEpisodes().get(this.list.getSelectedIndex());
+        this.link.setText(this.main.transformAlloUrlLink(e));
+        this.listValueChanged(null);
+    }//GEN-LAST:event_getlinkActionPerformed
+
+    private void viewEpisodeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_viewEpisodeActionPerformed
+        launchMovie(this.downloadAndGetLink(null));
+    }//GEN-LAST:event_viewEpisodeActionPerformed
+
+    public void setAlloUrlLinks(int n, boolean processing, int total){
+        if(processing)
+            this.alloUrlLinks.setText("Transformation en cours : "+n+"/"+total);
+        else
+            this.alloUrlLinks.setText(n+" liens allourl.com non tranformés");
+    }
 
     private String downloadAndGetLink(java.awt.event.ActionEvent evt){
         System.out.println("INDEX: " +this.list.getSelectedIndex());
@@ -606,19 +747,28 @@ public class ASDgui extends javax.swing.JFrame {
 
         String uri = this.actShow.getName()+"S"+this.actSeason.getNumber()+"E"+e.getNumber()+".flv";
 
-        System.out.println("URL > "+e.getUrl());
+       // System.out.println("URL > "+e.getDirect_url());
 
-        String url = kDown.downloadFromMV(kDown.alloSevenToMV(e.getUrl()));
+        String url = kDown.downloadFromMV(e.getDirect_url());
 
         System.out.println("url > "+url);
 
         if(url.contains("video unaviable")){
-            popUp(url);
-            return url;
+            return uri;
         }else{
             this.actionAdd(url+uri.replace(" ", "_"), this.actShow.getName(), this.actSeason.getNumber(), e.getNumber());
 
             return uri.replace(" ", "_");
+        }
+    }
+
+    public void launchMovie(String uri){
+        try {
+            System.out.println("Launching mplayer ...");
+            Process p = Runtime.getRuntime().exec("mplayer /tmp/" + uri + " -cache 4096");
+            System.out.println("mplayer /tmp/" + uri);
+        } catch (IOException ex) {
+            Logger.getLogger(ASDgui.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
@@ -712,9 +862,12 @@ public class ASDgui extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Image;
+    private javax.swing.JLabel alloUrlLinks;
     private javax.swing.JButton cancelButton;
     private javax.swing.JButton clearButton;
     private javax.swing.JLabel dbInfos;
+    private javax.swing.JButton getlink;
+    private javax.swing.JLabel host;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
@@ -725,6 +878,13 @@ public class ASDgui extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
@@ -735,6 +895,7 @@ public class ASDgui extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTextPane jTextPane1;
+    private javax.swing.JTextField link;
     private javax.swing.JList list;
     private javax.swing.JLabel loadingImage;
     private javax.swing.JButton pauseButton;
@@ -746,6 +907,7 @@ public class ASDgui extends javax.swing.JFrame {
     private javax.swing.JTable table;
     private javax.swing.JTree tree;
     private javax.swing.JButton view;
+    private javax.swing.JButton viewEpisode;
     // End of variables declaration//GEN-END:variables
 
 
@@ -861,9 +1023,7 @@ class ImageRenderer extends DefaultListCellRenderer
         if (((JLabel)c).getText().contains("#icon#")){
 
             String imgUrl = ((JLabel)c).getText().split("#icon#")[1];
-
-
-
+            
             BufferedImage original = null;
             Image icon = null;
             try{

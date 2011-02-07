@@ -31,6 +31,7 @@ public class Search extends alloshowdesktop.Search implements Runnable {
         //search();
     }
 
+
     public List<Show> searchTerm(){
         //Build parameter string
         String data = "titre="+this.search+"&rechee01=Recherche";
@@ -40,7 +41,7 @@ public class Search extends alloshowdesktop.Search implements Runnable {
             StringBuffer answer = new StringBuffer();
             do{
                 System.out.println("Searching...");
-                this.state = "sending request";this.setChanged();this.notifyObservers();
+                this.state("sending request");
 
                 // Send the request
                 URL url = new URL("http://www.alloshowtv.com/series/result.php");
@@ -72,7 +73,7 @@ public class Search extends alloshowdesktop.Search implements Runnable {
 
             //for(String element : res){
 
-            this.state = "listing";this.setChanged();this.notifyObservers();
+            this.state("listing");
 
             for(int i=1;i<res.length;i++){
                 String[] t = res[i].split("href");
@@ -116,10 +117,14 @@ public class Search extends alloshowdesktop.Search implements Runnable {
             serie.setName(title[title.length-1]);
             //TITLE
 
-            this.state = "adding "+title[title.length-1];this.setChanged();this.notifyObservers();
+            this.state("adding "+title[title.length-1]);
 
             String[] seasons = res.split("Saison ");
-            for(int i=1;i<seasons.length-1;i++){
+
+            System.out.println("length : "+seasons.length);
+
+            
+            for(int i=1;i<seasons.length;i++){
                 String[] n = seasons[i].split("<");
                 int season_n = Integer.parseInt(n[0]);
 
@@ -129,7 +134,7 @@ public class Search extends alloshowdesktop.Search implements Runnable {
 
 
                 String[] episodes = seasons[i].split("<tr");
-                for(int j=1;j<episodes.length;j++){
+                for(int j=1;j<episodes.length-1;j++){
                     String cur = episodes[j];
                     String[] link = cur.split("href=");
                     link = link[1].split(" ");
@@ -140,7 +145,8 @@ public class Search extends alloshowdesktop.Search implements Runnable {
                     int num = 0;
                     try{
                         e_num = e_num[1].split("<");
-                        
+                        e_num = e_num[0].split(" ");
+
                         num = Integer.parseInt(e_num[0]);
                     }catch(NumberFormatException e){
                         System.out.println("Can't read integer from "+e_num[0]);
@@ -149,6 +155,7 @@ public class Search extends alloshowdesktop.Search implements Runnable {
                     }
 
                     String[] host = cur.split("width=\"19%\" class=\"");
+
                     host = host[1].split("\"");
                     //host = host[0]
 
@@ -174,16 +181,21 @@ public class Search extends alloshowdesktop.Search implements Runnable {
                     if(te_link.length > 1)
                         e_link = te_link[1].split("\"")[0];
 
-                    if(e_link.length() > 23){
+                    this.state("adding "+title[title.length-1]);
+
+                    /*if(e_link.length() > 23){
                         if(e_link.substring(0, 22).equalsIgnoreCase("http://209.212.147.251")){
+                            this.state("allourl");
                             Allourl allo_url = new Allourl();
                             e_link = allo_url.getLink(e_link);
                         }
-                    }
+                    }*/
 
                     System.out.println(e_link);
 
-                    new_season.addEpisode(new Episode(num, link[0], host[0], "alloshowtv", lang_final));
+                    this.incResNb();
+
+                    new_season.addEpisode(new Episode(num, link[0], host[0], "alloshowtv", lang_final, e_link));
                 }
                 serie.addSeason(new_season);
             }
@@ -200,10 +212,11 @@ public class Search extends alloshowdesktop.Search implements Runnable {
     }
 
     public void run(){
-        this.state = "starting";this.setChanged();this.notifyObservers();
+        this.state("starting");
         this.search = this.search.replace(' ', '+');
         this.result = searchTerm();
-        this.state = "finished";this.setChanged();this.notifyObservers();
+
+        this.state("finished");
     }
 
     public void search() {

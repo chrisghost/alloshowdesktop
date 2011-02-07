@@ -5,6 +5,7 @@
 
 package alloshowdesktop;
 
+import alloshowtv.Allourl;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -28,8 +29,11 @@ public class Main {
     private ASDgui gui ;
     private List<Show> currentShows = new ArrayList<Show>();
     private List<Show> allShows = new ArrayList<Show>();
+    private List<Episode> alloUrlEpisodes  = new ArrayList<Episode>();
     private Hashtable<String, String> icons = new Hashtable<String, String>();
     private SearchOserver sObs = new SearchOserver(this.gui, this);
+
+    private int untransformedLinks = 0;
 
     private String lastSearchTerm = "";//utile quand on tape du texte pour savoir si on vient de rajouter ou d enlever une lettre/texte
     /**
@@ -95,7 +99,7 @@ public class Main {
 
     public void search(String s){
 //        this.currentShows = alloshowtv.searchTerm(s);
-        sObs.newSearch(new alloshowtv.Search(s));
+        this.currentShows = sObs.newSearch(new alloshowtv.Search(s));
         
     }
 
@@ -130,11 +134,11 @@ public class Main {
 
     public void populateIcons(){
         this.icons.put("AS", "images/as.png");
-        this.icons.put("MV", "images/mv.png");
+        this.icons.put("mv", "images/mv.png");
     }
 
     public String getIcon(String k){
-        if(this.icons.contains(k)){
+        if(this.icons.containsKey(k)){
             return this.icons.get(k);
         }else{
             return "images/default.png";
@@ -201,6 +205,44 @@ public class Main {
     }
 
 
+    public void checkLinks(){
+        System.out.println("checkLinks"+this.allShows.size());
+        for(int i = 0;i < this.allShows.size();i++){
+            Show show = this.allShows.get(i);
+
+            for(int j = 0; j < show.getSeasons().size();j++){
+                Season season = show.getSeasons().get(j);
+                
+                for(int k = 0; k < season.getEpisodes().size();k++){
+                    Episode episode = season.getEpisodes().get(k);
+
+                    System.out.println(episode.getDirect_url());
+                    if(episode.getDirect_url().contains("209.212.147.251")){
+                        this.alloUrlEpisodes.add(episode);
+                    }
+                }
+            }
+        }
+        this.gui.setAlloUrlLinks(this.alloUrlEpisodes.size(), false, 0);
+        this.untransformedLinks = this.alloUrlEpisodes.size();
+    }
+
+    public void processAlloUrlLinks(){
+        Allourl allo_url = new Allourl(this.alloUrlEpisodes, this);
+        allo_url.launch();
+    }
+
+    public void setAlloUrlLinksLabel(int n, boolean p){
+        this.gui.setAlloUrlLinks(n, p, this.untransformedLinks);
+    }
+
+    public String transformAlloUrlLink(Episode e){
+        Allourl allo_url = new Allourl(null, this);
+        String  url = allo_url.getLink(e.getDirect_url());
+        e.setDirect_url(url);
+        return url;
+    }
+
     public void updateDbInfosLabel(){
         String info = "Database infos : ";
         File f=new File("shows.serial");
@@ -208,5 +250,14 @@ public class Main {
         info = info+f.length()/1000+" KB ";
 
         this.gui.setDbInfosLabel(info);
+    }
+
+    public void emptyDB(){
+        System.out.println("Emptying DB");
+        File f = new File("shows.serial");
+        if (f.exists())
+            if(f.delete())
+                System.out.println("Database now empty");
+        this.updateDbInfosLabel();
     }
 }
