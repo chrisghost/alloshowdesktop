@@ -210,7 +210,7 @@ public class Search extends alloshowdesktop.Search implements Runnable {
                                     temp[0] = temp[0].replace("]", "");
                                     lang = temp[0];
                                 }
-                                newSeason.addEpisode(new Episode(EpN, specialCode[0]+num, "MV", "AS", lang));
+                                newSeason.addEpisode(new Episode(EpN, specialCode[0]+num, "MV", "AS", lang, ""));
                             }
                         }
 

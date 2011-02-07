@@ -16,6 +16,14 @@ public class Search extends Observable {
 
     protected String state;
     protected List<Show> result;
+    private Integer nb_sofar = 0;
+
+    public void incResNb(){
+        this.nb_sofar++;
+    }
+    public Integer getNbSofar() {
+        return nb_sofar;
+    }
 
     public String getState(){
         return state;
@@ -27,6 +35,12 @@ public class Search extends Observable {
 
     public void setResult(List<Show> result) {
         this.result = result;
+    }
+
+    public void state(String st){
+        this.state = st;
+        this.setChanged();
+        this.notifyObservers();
     }
 
 }

@@ -39,7 +39,7 @@ public class Show implements Serializable {
     }
 
     public String getName() {
-        return name;
+        return name.replace(" ", "_");
     }
 
     public List<Season> getSeasons() {
@@ -74,23 +74,25 @@ public class Show implements Serializable {
 
     public void loadIcon(){
         BufferedImage original = null;
-        try {
-            System.out.println(this.image);
-            original = ImageIO.read(new URL(this.image));
+        if(this.image != null){
+            try {
+                //System.out.println(this.image);
+                original = ImageIO.read(new URL(this.image));
 
-            BufferedImage bi = new BufferedImage(100, 100, BufferedImage.TYPE_INT_ARGB);
-            bi.getGraphics().drawImage(original, 0, 0, 100, 100, null);
-            this.icon = new ImageIcon(bi);
+                BufferedImage bi = new BufferedImage(100, 100, BufferedImage.TYPE_INT_ARGB);
+                bi.getGraphics().drawImage(original, 0, 0, 100, 100, null);
+                this.icon = new ImageIcon(bi);
 
-        } catch (MalformedURLException ex) {
-            //Logger.getLogger(ASDgui.class.getName()).log(Level.SEVERE, null, ex);
-            System.out.println("URL "+ this.image +" seems to be wrong");
-        }catch (IOException ex) {
-            System.out.println("Image "+ this.image +" cannot be loaded");
-            //Logger.getLogger(ASDgui.class.getName()).log(Level.SEVERE, null, ex);
-            this.icon = new javax.swing.ImageIcon(getClass().getResource("/alloshowdesktop/no_image.gif"));
-        } catch (NullPointerException ex){
-            System.out.println("Error loading image " + this.image);
+            } catch (MalformedURLException ex) {
+                //Logger.getLogger(ASDgui.class.getName()).log(Level.SEVERE, null, ex);
+                System.out.println("URL "+ this.image +" seems to be wrong");
+            }catch (IOException ex) {
+                System.out.println("Image "+ this.image +" cannot be loaded");
+                //Logger.getLogger(ASDgui.class.getName()).log(Level.SEVERE, null, ex);
+                this.icon = new javax.swing.ImageIcon(getClass().getResource("/alloshowdesktop/no_image.gif"));
+            } catch (NullPointerException ex){
+                System.out.println("Error loading image " + this.image);
+            }
         }
     }
 

@@ -22,15 +22,25 @@ public class Episode implements Serializable {
     private String host;
     private String website;
     private String lang;
+    private String direct_url;
 
     private List<URL> sources;
 
-    public Episode(int number, String specialCode, String host, String website, String lang) {
+    public Episode(int number, String specialCode, String host, String website, String lang, String durl) {
         this.number=number;
         this.specialCode = specialCode;
         this.host=host;
         this.website=website;
         this.lang=lang;
+        this.direct_url=durl;
+    }
+
+    public String getDirect_url() {
+        return direct_url;
+    }
+
+    public void setDirect_url(String direct_url) {
+        this.direct_url = direct_url;
     }
 
     public void setSpecialCode(String specialCode) {
